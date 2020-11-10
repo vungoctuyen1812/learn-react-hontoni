@@ -1,0 +1,10 @@
+.todo-list{
+    & > li {
+        font-size: 3rem;
+        cursor: pointer;
+    }
+    & > li.updated {
+        color: #ccc;
+        text-decoration: line-through;
+    }
+}

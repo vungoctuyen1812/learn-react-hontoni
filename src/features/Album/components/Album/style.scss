@@ -1,0 +1,15 @@
+.album {
+    &__thumbnail{
+        & > img {
+            max-width: 190px;
+            max-height: 190px;
+            border-radius: 0.5rem;
+        }
+    }
+
+    &__name{
+        font-weight: bold;
+        font-size: 1rem;
+        max-width: 100%;
+    }
+}
