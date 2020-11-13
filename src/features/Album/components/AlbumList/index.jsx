@@ -1,22 +1,20 @@
-import React, { useEffect } from 'react';
 import PropTypes from 'prop-types';
+import React from 'react';
 import Album from '../Album';
 import './style.scss';
 AlbumList.propTypes = {
     albumList: PropTypes.array.isRequired,
 };
 
-function AlbumList({albumList, test}) {
-
+function AlbumList({ albumList }) {
     return (
-        
         <div>
             <ul className="album-list">
-                {albumList.map(album=>(
+                {albumList.map((album) => (
                     <li key={album.id}>
                         <Album album={album}></Album>
                     </li>
-            ))}
+                ))}
             </ul>
         </div>
     );

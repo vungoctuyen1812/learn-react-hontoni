@@ -1,21 +1,25 @@
 import React from 'react';
-import { Link, Route } from 'react-router-dom';
-import AlbumFeature from './features/Album';
-import TodoFeature from './features/Todo';
+import HeroImage from './features/HeroImage';
+import NavbarFeature from './features/Navbar';
 
 function App() {
-  
-  return (
-    <div className="App">
-      <h1>HomePage</h1>
+    /*useEffect(() => {
+        const fetchProducts = async () => {
+            const params = {
+                _limit: 10,
+            };
+            const productList = await productApi.getAll(params);
+            console.log(productList);
+        };
 
-      <Link to="/todos"> </Link>
-      <Link to="/albums"> </Link>
-      <Route path="/todos" component={TodoFeature}/>
-      <Route path="/albums" component={AlbumFeature}/>
-      
-    </div>
-  );
+        fetchProducts();
+    }, []);*/
+    return (
+        <div className="App">
+            <NavbarFeature />
+            <HeroImage />
+        </div>
+    );
 }
 
 export default App;

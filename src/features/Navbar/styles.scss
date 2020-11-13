@@ -1,0 +1,72 @@
+$primaryColor: #e05297;
+$secondaryColor: #ea86b6;
+$thirdaryColor: #f3bad6;
+$fourtharyColor: #fceef5;
+.navbar{
+    background-color: $primaryColor;
+    color: #fceef5;
+    font-size: 1.5rem;
+    &__container{
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 2.5rem;
+        height: 3rem;
+        & > svg{
+            cursor: pointer;
+            padding: 2rem;
+            font-size: 3rem;
+            transition: .3s;
+            &:hover{
+                transform: scale(1.5);
+                
+            }
+        }
+    }
+    &__list{
+        display: flex;
+        justify-content: flex-end;
+        list-style-type: none;
+        flex-grow: 1;
+        align-items: center;
+        & > a {
+            text-decoration: none;
+            margin: 0 3.5rem;
+            text-transform: capitalize;
+            color: white;
+            position: relative;           
+            &:before{
+                content: '';
+                position: absolute;
+                bottom: -20%;
+                left: 50%;
+                height: 0.05rem;
+                background-color: rgb(255, 255, 255);
+                transition: .5s ;
+            }
+            &:after{
+                content: '';
+                position: absolute;
+                bottom: -30%;
+                left: 70%;
+                height: 0.05rem;
+                background-color: rgb(255, 255, 255);
+                transition: .6s;
+            }
+            &:hover:before{
+                width: 100%;
+                left: 0;
+                right: auto;
+            }
+            &:hover:after{
+                width: 100%;
+                left: 0;
+                right: auto;
+            }
+        }   
+    }
+    
+}
+
+
