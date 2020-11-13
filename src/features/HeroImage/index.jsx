@@ -16,10 +16,16 @@ function HeroImage(props) {
                 nulla laboriosam quo vitae alias odit
             </p>
             <button className="hero__btn">
-                Explore Now
-                <ArrowForwardIosIcon classname="hero__btn--icon" />
-                <ArrowForwardIosIcon classname="hero__btn--icon" />
-                <ArrowForwardIosIcon classname="hero__btn--icon" />
+                <span>Explore Now</span>
+                <span className="hero__btn--icon1">
+                    <ArrowForwardIosIcon />
+                </span>
+                <span className="hero__btn--icon2">
+                    <ArrowForwardIosIcon />
+                </span>
+                <span className="hero__btn--icon3">
+                    <ArrowForwardIosIcon />
+                </span>
             </button>
         </div>
     );

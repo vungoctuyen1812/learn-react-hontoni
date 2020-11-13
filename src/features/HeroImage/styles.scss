@@ -37,19 +37,65 @@ $fourtharyColor: #fceef5;
         font-size: 1rem;
         letter-spacing: 0.1rem;
         text-transform: uppercase;
+        font-weight: bold;
         border: none;
         border-radius: 5rem;
         color: $fourtharyColor;
         background-color: $primaryColor;
         transition: all 0.4s ease;
         box-shadow: 0 0 3rem 0.2rem $thirdaryColor;
+        font-family: Poppins, sans-serif;
+        outline: none;
+        position: relative;
+        transition: .5s ease;
+        animation: 1s ease infinite ;
+        &--icon1 > svg {
+            position: absolute;
+            right: 15%;
+            top: 35%;
+            opacity: 1;
+            font-size: 1rem;
+            
+        }
+        &--icon2 > svg {
+            position: absolute;
+            right: 10%;
+            top: 35%;
+            opacity: 1;
+            font-size: 1rem;
+        }
+        &--icon3 > svg {
+            position: absolute;
+            right: 5%;
+            top: 35%;
+            opacity: 1;
+            font-size: 1rem;
+            transition: .5s;
+        }
+        
         &:hover{
             color: $primaryColor;
             background-color: $fourtharyColor;
         }
-        & > svg{
-            opacity: 0.1;
-            font-size: 0.8rem;
+
+        &:hover &--icon1 > svg {
+            opacity: 0;
+        }
+        
+        
+    }
+}
+
+@mixin keyframes($opacity_arrow)  {
+    @keyframes #{$opacity_arrow}{
+        0% {
+            opacity: 0;
+        }
+        50% {
+            opacity: 0.5;
+        }
+        100% {
+            opacity: 1;
         }
     }
 }
