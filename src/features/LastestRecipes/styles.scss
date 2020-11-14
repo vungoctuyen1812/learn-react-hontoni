@@ -1,0 +1,74 @@
+$primaryColor: #f6bed6;
+$secondaryColor: #e79cc2;
+$thirdaryColor: #1d1b38;
+$fourtharyColor: #336d88;
+$backgroundColor: #e0e3e9;
+.lastRecipes{
+    &__container{
+        background-color: $backgroundColor;
+        width: 80%;
+        margin: 0 auto;
+    }
+    &__title{
+        display: inline-block;
+        margin: 5rem auto;
+        font-size: 2rem;
+        position: relative;
+        &::after{
+            content: '';
+            width: 100%;
+            height: 0.3rem;
+            background-color: $fourtharyColor;
+            position: absolute;
+            bottom: -25%;
+            left: 0;
+        }
+        &::before{
+            content: '';
+            width: 35%;
+            height: 0.3rem;
+            background-color: $secondaryColor;
+            position: absolute;
+            bottom: -25%;
+            left: 0;
+            z-index: 1;
+        }
+    }
+    &__wrapper{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    &__item{
+        width: calc(32%);
+        margin-bottom: 3rem;
+        position: relative;
+        overflow: hidden;
+        & > img{
+            width: 100%;
+            min-height: 100%;
+            object-fit: cover;
+        }
+        &--desc{
+            position: absolute;
+            bottom: 7%;
+            left: 5%;
+            z-index: 2;
+            color: white;
+            &::before{
+                content: '';
+                background-color: $fourtharyColor;
+                position: absolute;
+                width: 220%;
+                height: 120%;
+                transform: skew(-30deg) translateX(-3rem) translateY(-0.5rem);
+                z-index: -1;
+            }
+        }
+        &--active{
+            color: rgb(255, 238, 0);
+        }
+
+    }
+}

@@ -1,7 +1,7 @@
-$primaryColor: #e05297;
-$secondaryColor: #ea86b6;
-$thirdaryColor: #f3bad6;
-$fourtharyColor: #fceef5;
+$primaryColor: #f6bed6;
+$secondaryColor: #e79cc2;
+$thirdaryColor: #1d1b38;
+$fourtharyColor: #336d88;
 
 .hero{
     &__container{
@@ -12,12 +12,18 @@ $fourtharyColor: #fceef5;
         background-position: center;
         background-size: cover;
         text-align: center;
-        color:  #fceef5;
         padding: 5rem auto;
+        color: white;
+    }
+    &__layout{
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.199);
     }
     &__subtitle{
         padding: 4rem 0 0.5rem 0;
         font-size: 1.5rem;
+        
     }
     &__title{
         padding: 0.5rem 0 4rem 0;
@@ -51,26 +57,27 @@ $fourtharyColor: #fceef5;
         animation: 1s ease infinite ;
         &--icon1 > svg {
             position: absolute;
-            right: 15%;
+            right: 0;
             top: 35%;
-            opacity: 1;
+            opacity: 0;
             font-size: 1rem;
-            
+            transition: .6s ease-in-out;
         }
         &--icon2 > svg {
             position: absolute;
-            right: 10%;
+            right: 0;
             top: 35%;
-            opacity: 1;
+            opacity: 0;
             font-size: 1rem;
+            transition: .4s ease-in-out;
         }
         &--icon3 > svg {
             position: absolute;
-            right: 5%;
+            right: 0;
             top: 35%;
-            opacity: 1;
+            opacity: 0;
             font-size: 1rem;
-            transition: .5s;
+            transition: .2s ease-in-out;
         }
         
         &:hover{
@@ -79,7 +86,16 @@ $fourtharyColor: #fceef5;
         }
 
         &:hover &--icon1 > svg {
-            opacity: 0;
+            opacity: 1;
+            right: 5%;
+        }
+        &:hover &--icon2 > svg {
+            opacity: 1;
+            right: 10%;
+        }
+        &:hover &--icon3 > svg {
+            opacity: 1;
+            right: 15%;
         }
         
         

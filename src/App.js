@@ -1,5 +1,6 @@
 import React from 'react';
 import HeroImage from './features/HeroImage';
+import LastestRecipes from './features/LastestRecipes';
 import NavbarFeature from './features/Navbar';
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <div className="App">
             <NavbarFeature />
             <HeroImage />
+            <LastestRecipes />
         </div>
     );
 }
