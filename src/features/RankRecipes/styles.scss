@@ -11,10 +11,10 @@ $backgroundColor: #ffffffc5;
         margin: 0 auto;
         justify-content: space-between;
         background-color: $backgroundColor;
+        margin-top: 3rem;
     }
     &__title{
         display: inline-block;
-        margin-top: 3rem;
         margin-bottom: 3rem;
         font-size: 2rem;
         position: relative; 
@@ -31,11 +31,16 @@ $backgroundColor: #ffffffc5;
     &__item{
         width: calc(32%);
     }
+    
     &__wrapper{
         width: 100%;
         display: flex;
         margin-bottom: 1rem;
+        &:last-child{
+            margin-bottom: 0rem;
+        }
     }
+    
     &__img{
        min-width: 8rem;
        max-width: 8rem;
@@ -66,7 +71,7 @@ $backgroundColor: #ffffffc5;
             font-size: 1.2rem;
         }
         &--active{
-            //color: rgb(250, 225, 86);
+            color: rgb(250, 225, 86);
         }
     }
     
