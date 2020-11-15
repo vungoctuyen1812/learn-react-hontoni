@@ -25,8 +25,8 @@ $backgroundColor: #ffffffc5;
                 content: '';
                 background-color: $fourtharyColor;
                 position: absolute;
-                width: 130%;
-                height: 180%;
+                width: 13rem;
+                height: 2.2rem;
                 transform: skew(-30deg) translateX(-2rem) translateY(-0.7rem);
                 z-index: -1;
             }
@@ -93,8 +93,6 @@ $backgroundColor: #ffffffc5;
             transform: scale(2);
             color: $secondaryColor;
         }
-       
-        
     }
     
     
