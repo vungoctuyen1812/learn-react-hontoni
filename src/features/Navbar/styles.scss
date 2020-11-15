@@ -64,7 +64,10 @@ $fourtharyColor: #336d88;
                 left: 0;
                 right: auto;
             }
-        }   
+        }  
+        & > .active{
+            color: white;
+        }
     }
     
 }

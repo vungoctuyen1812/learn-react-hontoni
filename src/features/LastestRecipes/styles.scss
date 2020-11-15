@@ -2,7 +2,7 @@ $primaryColor: #f6bed6;
 $secondaryColor: #e79cc2;
 $thirdaryColor: #1d1b38;
 $fourtharyColor: #336d88;
-$backgroundColor: #e0e3e9;
+$backgroundColor: #ffffffc5;
 .lastRecipes{
     &__container{
         background-color: $backgroundColor;
@@ -13,16 +13,7 @@ $backgroundColor: #e0e3e9;
         display: inline-block;
         margin: 5rem auto;
         font-size: 2rem;
-        position: relative;
-        &::after{
-            content: '';
-            width: 100%;
-            height: 0.3rem;
-            background-color: $fourtharyColor;
-            position: absolute;
-            bottom: -25%;
-            left: 0;
-        }
+        position: relative; 
         &::before{
             content: '';
             width: 35%;
@@ -31,7 +22,6 @@ $backgroundColor: #e0e3e9;
             position: absolute;
             bottom: -25%;
             left: 0;
-            z-index: 1;
         }
     }
     &__wrapper{
@@ -45,10 +35,13 @@ $backgroundColor: #e0e3e9;
         margin-bottom: 3rem;
         position: relative;
         overflow: hidden;
+        transition: all .4s ease-in;
+        border-radius: 1rem;
         & > img{
             width: 100%;
             min-height: 100%;
             object-fit: cover;
+            transition: .4s ease;
         }
         &--desc{
             position: absolute;
@@ -68,6 +61,10 @@ $backgroundColor: #e0e3e9;
         }
         &--active{
             color: rgb(255, 238, 0);
+        }
+
+        &:hover img{
+            transform: scale(1.1);
         }
 
     }
