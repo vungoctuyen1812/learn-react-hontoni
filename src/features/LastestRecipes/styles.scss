@@ -6,12 +6,12 @@ $backgroundColor: #ffffffc5;
 .lastRecipes{
     &__container{
         background-color: $backgroundColor;
-        width: 80%;
-        margin: 0 auto;
+        padding: 0 10rem 5rem 10rem;
     }
     &__title{
         display: inline-block;
-        margin: 5rem auto;
+        padding-top: 10rem;
+        padding-bottom: 5rem;
         font-size: 2rem;
         position: relative; 
         &::before{
@@ -20,8 +20,8 @@ $backgroundColor: #ffffffc5;
             height: 0.3rem;
             background-color: $secondaryColor;
             position: absolute;
-            bottom: -25%;
             left: 0;
+            top: 50%;
         }
     }
     &__wrapper{

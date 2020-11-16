@@ -4,28 +4,26 @@ $thirdaryColor: #1d1b38;
 $fourtharyColor: #336d88;
 $backgroundColor: #ffffffc5;
 .rankRecipes{
-
     &__container{
         display: flex;
-        width: 80%;
-        margin: 0 auto;
+        padding: 0 10rem 5rem 10rem;
         justify-content: space-between;
-        background-color: $backgroundColor;
-        margin-top: 3rem;
+        background-color: #f4f7fb;
     }
     &__title{
         display: inline-block;
-        margin-bottom: 3rem;
+        padding-top: 10rem;
+        padding-bottom: 5rem;
         font-size: 2rem;
         position: relative; 
         &::before{
             content: '';
-            width: 25%;
+            width: 35%;
             height: 0.3rem;
             background-color: $secondaryColor;
             position: absolute;
-            bottom: -25%;
             left: 0;
+            top: 50%;
         }
     }
     &__item{

@@ -6,15 +6,18 @@ $backgroundColor: #ffffffc5;
 .review{
     &__container{
         width: 100%;
+    }
+    &__imgWrapper{
         position: relative;
         overflow: hidden;
-        
+        width: 100%;
     }
     &__img{
         width: 100%;
-        height: 50%;
+        height: 21rem;
         object-fit: cover;
     }
+    
     &__date{
         position: absolute;
             top: 1%;
@@ -33,9 +36,9 @@ $backgroundColor: #ffffffc5;
     }
     &__content{
         display: inline-block;
-        height: 100%;
-        
         font-family: 'Josefin Sans', sans-serif;
+        
+        
     }
     &__number{
         position: absolute;
@@ -59,28 +62,44 @@ $backgroundColor: #ffffffc5;
         }
     }
     &__blockquote{
-        margin: 2rem 1.5rem 0 1.5rem;
+        padding: 2rem 2rem 0 2rem;
         display: block;
         text-align: center;
         font-size: 1.7rem;
         height: 13rem;
         letter-spacing: 0.08rem;
+        position: relative;
+        z-index: 1;
+        
+        &:before{
+            content: '';
+            width: 0.3rem;
+            height: 15.5rem;
+            top: 2rem;
+            left: 0.5rem;
+            background-color: rgb(0, 0, 0);
+            position: absolute;
+            z-index: -1;
+        }
     }
     &__cite{
         display: block;
         text-align: right;
         margin-top: 1rem;
         height: 3rem;
+        z-index: 1;
+        
     }
     &__btn{
         &--wrapper{
            display: flex;
            justify-content: center;
         }
+        font-size: 1.3rem;
         cursor: pointer;
         outline: none;
         border: none;
-        border-radius: 50rem;
+        border-radius: 5rem;
         width: 4rem;
         height: 4rem;
         background-color: $secondaryColor;
@@ -88,10 +107,11 @@ $backgroundColor: #ffffffc5;
         color: $thirdaryColor;
         opacity: .7;
         &:hover{
-            background-color: white;
+            background-color: $fourtharyColor;
             opacity: 1;
-            transform: scale(2);
+            width: 12rem;
             color: $secondaryColor;
+            border-radius: 1rem;
         }
     }
     

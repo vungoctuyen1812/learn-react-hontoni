@@ -82,7 +82,7 @@ function RankRecipes(props) {
     ];
     const reviewsList = [
         {
-            id: 0,
+            id: 1,
             date: 'March 07, 2020',
             name: 'Miss Viet Nam  Review',
             writer: 'By Maria Williams',
@@ -93,7 +93,7 @@ function RankRecipes(props) {
                 'https://images.unsplash.com/photo-1554118811-1e0d58224f24?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1930&q=80',
         },
         {
-            id: 1,
+            id: 2,
             date: 'November 14, 2020',
             name: 'Miss Viet Nam  Review',
             writer: 'By Big Daddy',
@@ -104,7 +104,7 @@ function RankRecipes(props) {
                 'https://images.unsplash.com/photo-1428515613728-6b4607e44363?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80',
         },
         {
-            id: 2,
+            id: 3,
             date: 'November 27, 2020',
             name: 'Miss Viet Nam  Review',
             writer: 'By Hatake Hana',
@@ -115,7 +115,7 @@ function RankRecipes(props) {
                 'https://images.unsplash.com/photo-1579869696034-ec145eb3987c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80',
         },
         {
-            id: 3,
+            id: 4,
             date: 'December 22, 2020',
             name: 'Miss Viet Nam  Review',
             writer: 'By John Cena',
@@ -126,7 +126,7 @@ function RankRecipes(props) {
                 'https://images.unsplash.com/photo-1571705042748-55feda1cfadc?ixlib=rb-1.2.1&auto=format&fit=crop&w=1267&q=80',
         },
         {
-            id: 4,
+            id: 5,
             date: 'July 02, 2020',
             name: 'Miss Viet Nam  Review',
             writer: 'By Den Vau',
