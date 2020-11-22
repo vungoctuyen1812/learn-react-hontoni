@@ -1,7 +1,5 @@
-import { Button } from '@material-ui/core';
-import React from 'react';
-import img from './images/hero-image.jpg';
 import ArrowForwardIosIcon from '@material-ui/icons/ArrowForwardIos';
+import React from 'react';
 import './styles.scss';
 HeroImage.propTypes = {};
 

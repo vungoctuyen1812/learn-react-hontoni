@@ -1,0 +1,69 @@
+$primaryColor: #f6bed6;
+$secondaryColor: #e79cc2;
+$thirdaryColor: #1d1b38;
+$fourtharyColor: #336d88;
+$backgroundColor: #ffffffc5;
+
+.specialRecipes{
+    &__container{
+        display: flex;
+        padding: 5rem 10rem 5rem 10rem;
+        justify-content: space-between;
+        background-color: #fdc856;
+    }
+    &__item{
+        display: flex;
+        width: calc(50% - 6rem);
+        background-color: #fff;
+        box-shadow: 0 0 4rem -3rem rgb(0, 0, 0);
+        transition: all 0.5s ease-in-out;
+        cursor: pointer;
+        
+        &:nth-child(2n+1):hover{
+            transform: translate(3rem, -0.5rem);
+            box-shadow: 0 0 4rem -2rem rgb(0, 0, 0);
+        }
+        &:nth-child(2n):hover{
+            transform: translate(-3rem, -0.5rem);
+            box-shadow: 0 0 4rem -2rem rgb(0, 0, 0);
+        }
+        
+    }
+    &__imgWrapper{
+        max-width: 13rem;
+        max-height: 13rem;
+        & > img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+    &__content{
+        margin-left: 2rem;
+        
+    }
+    &__date{
+        color: #e79cc2;
+        font-size: 1rem;
+        margin: 1rem 0 1rem 0;
+        font-weight: bold;
+    }
+    &__name{
+        font-size: 1.7rem;
+        margin-bottom: 1rem;
+
+    }
+    &__chef {
+        display: flex;
+        align-items: center;
+        & > img {
+            margin-top: 1rem;
+            width: 3rem;
+            height: 3rem;
+            object-fit: cover;
+            border-radius: 5rem;
+            margin-right: 2rem;
+            
+        }
+    }
+}

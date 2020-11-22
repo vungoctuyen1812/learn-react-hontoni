@@ -30,18 +30,20 @@ function ReviewRecipes({ reviewsList }) {
     return (
         <div className="rankRecipes__item review__container">
             <h3 className="rankRecipes__title">Top 5 Reviews</h3>
-            <div className="review__imgWrapper">
-                <img className="review__img" src={content.url} alt={content.name} />
-                <p className="review__number">{content.id}</p>
-                <p className="review__date">{content.date}</p>
-            </div>
-            <div className="review__content">
-                <blockquote className="review__blockquote">{content.desc}</blockquote>
-                <cite className="review__cite">{content.writer}</cite>
-                <div className="review__btn--wrapper">
-                    <button className="review__btn" onClick={() => handleNextReviewClick()}>
-                        Next
-                    </button>
+            <div className="review__wrapper">
+                <div className="review__imgWrapper">
+                    <img className="review__img" src={content.url} alt={content.name} />
+                    <p className="review__number">{content.id}</p>
+                    <p className="review__date">{content.date}</p>
+                </div>
+                <div className="review__content">
+                    <blockquote className="review__blockquote">{content.desc}</blockquote>
+                    <cite className="review__cite">{content.writer}</cite>
+                    <div className="review__btn--wrapper">
+                        <button className="review__btn" onClick={() => handleNextReviewClick()}>
+                            Next
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>
