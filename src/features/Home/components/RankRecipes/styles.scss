@@ -34,8 +34,12 @@ $backgroundColor: #ffffffc5;
         width: 100%;
         display: flex;
         margin-bottom: 1rem;
+        transition: all .3s ease-in;
         &:last-child{
             margin-bottom: 0rem;
+        }
+        &:hover{
+            box-shadow: 0 0 5rem -3rem #111;
         }
     }
     
@@ -54,6 +58,7 @@ $backgroundColor: #ffffffc5;
         padding-left: 1rem;
     }
     &__date{
+        padding-top: 0.5rem;
         color: $secondaryColor;
         font-size: 1rem;
         margin-bottom: 1rem;

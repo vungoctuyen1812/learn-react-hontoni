@@ -69,11 +69,11 @@ function Footer(props) {
 
     return (
         <footer className="footer">
-            <ul className="footer__list"></ul>
-            {iconList.map((item) => (
-                <li>{item.icon}</li>
-            ))}
-
+            <ul className="footer__list">
+                {iconList.map((item) => (
+                    <li key={item.id}>{item.icon}</li>
+                ))}
+            </ul>
             <p className="footer__copyright">{footerContent.content}</p>
         </footer>
     );

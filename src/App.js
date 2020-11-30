@@ -1,10 +1,9 @@
 import React from 'react';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Footer from './features/Footer';
-import HeroImage from './features/HeroImage';
-import LastestRecipes from './features/LastestRecipes';
+import Home from './features/Home';
 import NavbarFeature from './features/Navbar';
-import RankRecipes from './features/RankRecipes';
-import SpecialRecipes from './features/SpecialRecipes';
+
 function App() {
     /*useEffect(() => {
         const fetchProducts = async () => {
@@ -19,12 +18,13 @@ function App() {
     }, []);*/
     return (
         <div className="App">
-            <NavbarFeature />
-            <HeroImage />
-            <LastestRecipes />
-            <RankRecipes />
-            <SpecialRecipes />
-            <Footer />
+            <BrowserRouter>
+                <NavbarFeature />
+                <Switch>
+                    <Route path="/" component={Home} />
+                </Switch>
+                <Footer />
+            </BrowserRouter>
         </div>
     );
 }

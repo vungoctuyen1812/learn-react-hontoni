@@ -31,7 +31,7 @@ function SpecialRecipes(props) {
     return (
         <section className="specialRecipes__container">
             {datas.map((item) => (
-                <div className="specialRecipes__item">
+                <div key={item.id} className="specialRecipes__item">
                     <div className="specialRecipes__imgWrapper">
                         <img src={item.url} alt={item.name} />
                     </div>
