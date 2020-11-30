@@ -21,7 +21,7 @@ function App() {
             <BrowserRouter>
                 <NavbarFeature />
                 <Switch>
-                    <Route path="/" component={Home} />
+                    <Route exact path="/" component={Home} />
                 </Switch>
                 <Footer />
             </BrowserRouter>
