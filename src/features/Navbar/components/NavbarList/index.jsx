@@ -11,7 +11,7 @@ function NavbarList({ navbarList }) {
         <React.Fragment>
             <ul className="navbar__list">
                 {navbarList.map((item) => (
-                    <NavLink key={item.id} to={item.path} className="navbar__list--active">
+                    <NavLink key={item.id} exact to={item.path} className="navbar__list--active">
                         <li>{item.label}</li>
                     </NavLink>
                 ))}

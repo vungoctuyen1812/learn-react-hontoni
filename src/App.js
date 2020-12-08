@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Footer from './features/Footer';
 import Home from './features/Home';
 import NavbarFeature from './features/Navbar';
+import Recipes from './features/Recipes';
 
 function App() {
     /*useEffect(() => {
@@ -22,6 +23,7 @@ function App() {
                 <NavbarFeature />
                 <Switch>
                     <Route exact path="/" component={Home} />
+                    <Route path="/recipes" component={Recipes} />
                 </Switch>
                 <Footer />
             </BrowserRouter>

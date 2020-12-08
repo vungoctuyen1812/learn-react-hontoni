@@ -14,8 +14,8 @@ function NavbarFeature() {
         },
         {
             id: 2,
-            label: 'recipies',
-            path: '/recipies',
+            label: 'recipes',
+            path: '/recipes',
         },
         {
             id: 3,
