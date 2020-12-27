@@ -1,0 +1,104 @@
+$primaryColor: #f6bed6;
+$secondaryColor: #e79cc2;
+$thirdaryColor: #1d1b38;
+$fourtharyColor: #336d88;
+$backgroundColor: #ffffffc5;
+.recipeDetail{
+    &__heroImg{
+        height: 80vh;
+        width: 100vw;
+        background-image: cover;
+    }
+    &__container{
+        padding: 0 10rem 5rem 10rem;
+        
+    }
+    &__title{
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+        & > h5 {
+            font-size: 1.5rem;
+            position: relative;
+            padding-left: 1rem;
+            color: white;
+            margin-bottom: 2rem;
+            &:before{
+                content: '';
+                background-color: #336d88;
+                position: absolute;
+                top: -0.6rem;
+                left: 0;
+                width: 10rem;
+                height: 4rem;
+                z-index: -1;
+            }
+            &::after{
+                content: '';
+                background-color: #336d88;
+                position: absolute;
+                top: -0.1rem;
+                left: 8rem;
+                width: 10rem;
+                height: 4rem;
+                transform: skew(-30deg) translateX(-3rem) translateY(-0.5rem);
+                z-index: -1;
+            }
+        }
+        & > h3 {
+            font-size: 2.5rem;
+            padding-bottom: 0.8rem;
+        }
+        & > p {
+            opacity: 0.5;
+            padding-bottom: 1.5rem;
+        }
+        
+
+    }
+    &__content{
+        display: flex;
+    }
+    &__leftCol{
+        min-width: 30%;
+        margin-right: 2rem;
+        padding-left: 4rem;
+        
+    }
+    &__introduce{
+        font-size: 1.2rem;
+        position: relative;
+        padding-left: 1rem;
+        margin-bottom: 2rem;
+        
+        &:before{
+            content: '';
+            background-color: #336d88;
+            position: absolute;
+            top: -0.6rem;
+            left: 0;
+            width: 10rem;
+            height: 6rem;
+            z-index: -1;
+        }
+        &::after{
+            content: '';
+            background-color: #336d88;
+            position: absolute;
+            top: -0.1rem;
+            left: 8rem;
+            width: 10rem;
+            height: 6rem;
+            transform: skew(-30deg) translateX(-3rem) translateY(-0.5rem);
+            z-index: -1;
+        }
+    }
+    &__ingredients{
+        & > h5 {
+            font-size: 2rem;
+        }
+    }
+    &__rightCol{
+        flex-grow: 7;
+    }
+
+}

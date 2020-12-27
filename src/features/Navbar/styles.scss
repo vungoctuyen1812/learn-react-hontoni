@@ -67,6 +67,25 @@ $fourtharyColor: #336d88;
         }  
         & > .active{
             color: white;
+            position: relative;
+            &:before{
+                content: '';
+                position: absolute;
+                bottom: -20%;
+                left: 50%;
+                height: 0.05rem;
+                background-color: white;
+                transition: .5s ;
+            }
+            &:after{
+                content: '';
+                position: absolute;
+                bottom: -30%;
+                left: 70%;
+                height: 0.05rem;
+                background-color: white;
+                transition: .6s;
+            }
         }
     }
     

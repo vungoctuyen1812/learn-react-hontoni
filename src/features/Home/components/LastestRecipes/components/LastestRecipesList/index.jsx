@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import LastestRecipesItem from '../LastestRecipesItem';
+import { motion } from 'framer-motion';
 
 LastestRecipesList.propTypes = {
     LastestRecipesList: PropTypes.array,

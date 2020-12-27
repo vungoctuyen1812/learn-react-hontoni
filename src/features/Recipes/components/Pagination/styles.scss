@@ -1,0 +1,46 @@
+$primaryColor: #f6bed6;
+$secondaryColor: #e79cc2;
+$thirdaryColor: #1d1b38;
+$fourtharyColor: #336d88;
+$backgroundColor: #ffffffc5;
+
+.recipes{
+    &__nav{
+        &--wrapper{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        list-style-type: none;
+        
+        &--item > button{
+            padding: 1rem 1.2rem;
+            margin-left: 1.5rem;
+            background-color: #bbbbbbc5;
+            cursor: pointer;
+            margin-bottom: 5rem;
+            border: none;
+            outline: none;
+            transition: all .3s ease-in;
+            font-size: 0.8rem;
+            &:nth-last-child(){
+                margin-left: 0;
+            }
+
+            &:hover{
+                color: white;
+                background-color: $secondaryColor;
+                
+            }
+            &:focus{
+                color: white;
+                background-color: $secondaryColor;
+
+            }
+        }
+    }
+}

@@ -22,7 +22,7 @@ $backgroundColor: #ffffffc5;
         }
     }
     &__content{
-        padding: 0 10rem 5rem 10rem;
+        padding: 0 10rem 1rem 10rem;
     }
     &__title{
         display: inline-block;
@@ -62,7 +62,7 @@ $backgroundColor: #ffffffc5;
         }
         &--desc{
             position: absolute;
-            bottom: 7%;
+            bottom: 6%;
             left: 5%;
             z-index: 2;
             color: white;
@@ -70,8 +70,8 @@ $backgroundColor: #ffffffc5;
                 content: '';
                 background-color: $fourtharyColor;
                 position: absolute;
-                width: 220%;
-                height: 120%;
+                width: 15rem;
+                height: 4rem;
                 transform: skew(-30deg) translateX(-3rem) translateY(-0.5rem);
                 z-index: -1;
             }
