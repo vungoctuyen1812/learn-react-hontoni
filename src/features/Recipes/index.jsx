@@ -22,14 +22,46 @@ function Recipes({ setRecipeDetail }) {
             },
 
             ingredients: [
-                '4 Tbsp (57 gr) butter',
-                '2 large eggs',
-                '2 yogurt containers granulated sugar',
-                '1 vanilla or plain yogurt, 170g container',
-                'White flour',
-                '1.5 yogurt containers milk',
-                '1/4 tsp cinnamon',
-                '1 cup fresh blueberries',
+                {
+                    id: 1,
+                    unique: 'box_1',
+                    content: '4 Tbsp (57 gr) butter',
+                },
+                {
+                    id: 2,
+                    unique: 'box_2',
+                    content: '2 large eggs',
+                },
+                {
+                    id: 3,
+                    unique: 'box_3',
+                    content: '2 yogurt containers granulated sugar',
+                },
+                {
+                    id: 8,
+                    unique: 'box_4',
+                    content: '1 vanilla or plain yogurt, 170g container',
+                },
+                {
+                    id: 4,
+                    unique: 'box_5',
+                    content: 'White flour',
+                },
+                {
+                    id: 5,
+                    unique: 'box_6',
+                    content: '1.5 yogurt containers milk',
+                },
+                {
+                    id: 6,
+                    unique: 'box_7',
+                    content: '1/4 tsp cinnamon',
+                },
+                {
+                    id: 7,
+                    unique: 'box_8',
+                    content: '1 cup fresh blueberries',
+                },
             ],
             howToCook: [
                 {
@@ -65,6 +97,83 @@ function Recipes({ setRecipeDetail }) {
             star: 4,
             url:
                 'https://images.unsplash.com/photo-1583077874340-79db6564672e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1934&q=80',
+            level: 'Beginner',
+            date: 'July 12 2020',
+            desc: {
+                prep: '10mins',
+                cook: '40mins',
+                yeilds: `7 servings`,
+            },
+
+            ingredients: [
+                {
+                    id: 1,
+                    unique: 'box_1',
+                    content: '4 Tbsp (57 gr) butter',
+                },
+                {
+                    id: 2,
+                    unique: 'box_2',
+                    content: '2 large eggs',
+                },
+                {
+                    id: 3,
+                    unique: 'box_3',
+                    content: '2 yogurt containers granulated sugar',
+                },
+                {
+                    id: 8,
+                    unique: 'box_4',
+                    content: '1 vanilla or plain yogurt, 170g container',
+                },
+                {
+                    id: 4,
+                    unique: 'box_5',
+                    content: 'White flour',
+                },
+                {
+                    id: 5,
+                    unique: 'box_6',
+                    content: '1.5 yogurt containers milk',
+                },
+                {
+                    id: 6,
+                    unique: 'box_7',
+                    content: '1/4 tsp cinnamon',
+                },
+                {
+                    id: 7,
+                    unique: 'box_8',
+                    content: '1 cup fresh blueberries',
+                },
+            ],
+            howToCook: [
+                {
+                    id: 1,
+                    content:
+                        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec varius dui. Suspendisse potenti. Vestibulum ac pellentesque tortor. Aenean congue sed metus in iaculis. Cras a tortor enim. Phasellus posuere vestibulum ipsum, eget lobortis purus. Orci varius natoque penatibus et magni.',
+                },
+                {
+                    id: 2,
+                    content:
+                        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec varius dui. Suspendisse potenti. Vestibulum ac pellentesque tortor. Aenean congue sed metus in iaculis. Cras a tortor enim. Phasellus posuere vestibulum ipsum, eget lobortis purus. Orci varius natoque penatibus et magni.',
+                },
+                {
+                    id: 3,
+                    content:
+                        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec varius dui. Suspendisse potenti. Vestibulum ac pellentesque tortor. Aenean congue sed metus in iaculis. Cras a tortor enim. Phasellus posuere vestibulum ipsum, eget lobortis purus. Orci varius natoque penatibus et magni.',
+                },
+                {
+                    id: 4,
+                    content:
+                        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec varius dui. Suspendisse potenti. Vestibulum ac pellentesque tortor. Aenean congue sed metus in iaculis. Cras a tortor enim. Phasellus posuere vestibulum ipsum, eget lobortis purus. Orci varius natoque penatibus et magni.',
+                },
+                {
+                    id: 5,
+                    content:
+                        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec varius dui. Suspendisse potenti. Vestibulum ac pellentesque tortor. Aenean congue sed metus in iaculis. Cras a tortor enim. Phasellus posuere vestibulum ipsum, eget lobortis purus. Orci varius natoque penatibus et magni.',
+                },
+            ],
         },
         {
             id: 3,
@@ -72,6 +181,83 @@ function Recipes({ setRecipeDetail }) {
             star: 4,
             url:
                 'https://images.unsplash.com/photo-1533787761082-492a5b83e614?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80',
+            level: 'Professional',
+            date: 'August 07 2020',
+            desc: {
+                prep: '15mins',
+                cook: '30mins',
+                yeilds: `8 servings`,
+            },
+
+            ingredients: [
+                {
+                    id: 1,
+                    unique: 'box_1',
+                    content: '4 Tbsp (57 gr) butter',
+                },
+                {
+                    id: 2,
+                    unique: 'box_2',
+                    content: '2 large eggs',
+                },
+                {
+                    id: 3,
+                    unique: 'box_3',
+                    content: '2 yogurt containers granulated sugar',
+                },
+                {
+                    id: 8,
+                    unique: 'box_4',
+                    content: '1 vanilla or plain yogurt, 170g container',
+                },
+                {
+                    id: 4,
+                    unique: 'box_5',
+                    content: 'White flour',
+                },
+                {
+                    id: 5,
+                    unique: 'box_6',
+                    content: '1.5 yogurt containers milk',
+                },
+                {
+                    id: 6,
+                    unique: 'box_7',
+                    content: '1/4 tsp cinnamon',
+                },
+                {
+                    id: 7,
+                    unique: 'box_8',
+                    content: '1 cup fresh blueberries',
+                },
+            ],
+            howToCook: [
+                {
+                    id: 1,
+                    content:
+                        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec varius dui. Suspendisse potenti. Vestibulum ac pellentesque tortor. Aenean congue sed metus in iaculis. Cras a tortor enim. Phasellus posuere vestibulum ipsum, eget lobortis purus. Orci varius natoque penatibus et magni.',
+                },
+                {
+                    id: 2,
+                    content:
+                        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec varius dui. Suspendisse potenti. Vestibulum ac pellentesque tortor. Aenean congue sed metus in iaculis. Cras a tortor enim. Phasellus posuere vestibulum ipsum, eget lobortis purus. Orci varius natoque penatibus et magni.',
+                },
+                {
+                    id: 3,
+                    content:
+                        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec varius dui. Suspendisse potenti. Vestibulum ac pellentesque tortor. Aenean congue sed metus in iaculis. Cras a tortor enim. Phasellus posuere vestibulum ipsum, eget lobortis purus. Orci varius natoque penatibus et magni.',
+                },
+                {
+                    id: 4,
+                    content:
+                        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec varius dui. Suspendisse potenti. Vestibulum ac pellentesque tortor. Aenean congue sed metus in iaculis. Cras a tortor enim. Phasellus posuere vestibulum ipsum, eget lobortis purus. Orci varius natoque penatibus et magni.',
+                },
+                {
+                    id: 5,
+                    content:
+                        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec varius dui. Suspendisse potenti. Vestibulum ac pellentesque tortor. Aenean congue sed metus in iaculis. Cras a tortor enim. Phasellus posuere vestibulum ipsum, eget lobortis purus. Orci varius natoque penatibus et magni.',
+                },
+            ],
         },
         {
             id: 4,
@@ -79,6 +265,83 @@ function Recipes({ setRecipeDetail }) {
             star: 4,
             url:
                 'https://images.unsplash.com/photo-1594020293008-5f99f60bd4d7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1981&q=80',
+            level: 'Beginner',
+            date: 'May 15 2020',
+            desc: {
+                prep: '15mins',
+                cook: '30mins',
+                yeilds: `8 servings`,
+            },
+
+            ingredients: [
+                {
+                    id: 1,
+                    unique: 'box_1',
+                    content: '4 Tbsp (57 gr) butter',
+                },
+                {
+                    id: 2,
+                    unique: 'box_2',
+                    content: '2 large eggs',
+                },
+                {
+                    id: 3,
+                    unique: 'box_3',
+                    content: '2 yogurt containers granulated sugar',
+                },
+                {
+                    id: 8,
+                    unique: 'box_4',
+                    content: '1 vanilla or plain yogurt, 170g container',
+                },
+                {
+                    id: 4,
+                    unique: 'box_5',
+                    content: 'White flour',
+                },
+                {
+                    id: 5,
+                    unique: 'box_6',
+                    content: '1.5 yogurt containers milk',
+                },
+                {
+                    id: 6,
+                    unique: 'box_7',
+                    content: '1/4 tsp cinnamon',
+                },
+                {
+                    id: 7,
+                    unique: 'box_8',
+                    content: '1 cup fresh blueberries',
+                },
+            ],
+            howToCook: [
+                {
+                    id: 1,
+                    content:
+                        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec varius dui. Suspendisse potenti. Vestibulum ac pellentesque tortor. Aenean congue sed metus in iaculis. Cras a tortor enim. Phasellus posuere vestibulum ipsum, eget lobortis purus. Orci varius natoque penatibus et magni.',
+                },
+                {
+                    id: 2,
+                    content:
+                        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec varius dui. Suspendisse potenti. Vestibulum ac pellentesque tortor. Aenean congue sed metus in iaculis. Cras a tortor enim. Phasellus posuere vestibulum ipsum, eget lobortis purus. Orci varius natoque penatibus et magni.',
+                },
+                {
+                    id: 3,
+                    content:
+                        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec varius dui. Suspendisse potenti. Vestibulum ac pellentesque tortor. Aenean congue sed metus in iaculis. Cras a tortor enim. Phasellus posuere vestibulum ipsum, eget lobortis purus. Orci varius natoque penatibus et magni.',
+                },
+                {
+                    id: 4,
+                    content:
+                        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec varius dui. Suspendisse potenti. Vestibulum ac pellentesque tortor. Aenean congue sed metus in iaculis. Cras a tortor enim. Phasellus posuere vestibulum ipsum, eget lobortis purus. Orci varius natoque penatibus et magni.',
+                },
+                {
+                    id: 5,
+                    content:
+                        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec varius dui. Suspendisse potenti. Vestibulum ac pellentesque tortor. Aenean congue sed metus in iaculis. Cras a tortor enim. Phasellus posuere vestibulum ipsum, eget lobortis purus. Orci varius natoque penatibus et magni.',
+                },
+            ],
         },
         {
             id: 5,
@@ -86,6 +349,83 @@ function Recipes({ setRecipeDetail }) {
             star: 4,
             url:
                 'https://images.unsplash.com/photo-1511714830748-636e1a12bb88?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80',
+            level: 'Beginner',
+            date: 'May 15 2020',
+            desc: {
+                prep: '15mins',
+                cook: '30mins',
+                yeilds: `8 servings`,
+            },
+
+            ingredients: [
+                {
+                    id: 1,
+                    unique: 'box_1',
+                    content: '4 Tbsp (57 gr) butter',
+                },
+                {
+                    id: 2,
+                    unique: 'box_2',
+                    content: '2 large eggs',
+                },
+                {
+                    id: 3,
+                    unique: 'box_3',
+                    content: '2 yogurt containers granulated sugar',
+                },
+                {
+                    id: 8,
+                    unique: 'box_4',
+                    content: '1 vanilla or plain yogurt, 170g container',
+                },
+                {
+                    id: 4,
+                    unique: 'box_5',
+                    content: 'White flour',
+                },
+                {
+                    id: 5,
+                    unique: 'box_6',
+                    content: '1.5 yogurt containers milk',
+                },
+                {
+                    id: 6,
+                    unique: 'box_7',
+                    content: '1/4 tsp cinnamon',
+                },
+                {
+                    id: 7,
+                    unique: 'box_8',
+                    content: '1 cup fresh blueberries',
+                },
+            ],
+            howToCook: [
+                {
+                    id: 1,
+                    content:
+                        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec varius dui. Suspendisse potenti. Vestibulum ac pellentesque tortor. Aenean congue sed metus in iaculis. Cras a tortor enim. Phasellus posuere vestibulum ipsum, eget lobortis purus. Orci varius natoque penatibus et magni.',
+                },
+                {
+                    id: 2,
+                    content:
+                        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec varius dui. Suspendisse potenti. Vestibulum ac pellentesque tortor. Aenean congue sed metus in iaculis. Cras a tortor enim. Phasellus posuere vestibulum ipsum, eget lobortis purus. Orci varius natoque penatibus et magni.',
+                },
+                {
+                    id: 3,
+                    content:
+                        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec varius dui. Suspendisse potenti. Vestibulum ac pellentesque tortor. Aenean congue sed metus in iaculis. Cras a tortor enim. Phasellus posuere vestibulum ipsum, eget lobortis purus. Orci varius natoque penatibus et magni.',
+                },
+                {
+                    id: 4,
+                    content:
+                        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec varius dui. Suspendisse potenti. Vestibulum ac pellentesque tortor. Aenean congue sed metus in iaculis. Cras a tortor enim. Phasellus posuere vestibulum ipsum, eget lobortis purus. Orci varius natoque penatibus et magni.',
+                },
+                {
+                    id: 5,
+                    content:
+                        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec varius dui. Suspendisse potenti. Vestibulum ac pellentesque tortor. Aenean congue sed metus in iaculis. Cras a tortor enim. Phasellus posuere vestibulum ipsum, eget lobortis purus. Orci varius natoque penatibus et magni.',
+                },
+            ],
         },
         {
             id: 6,
@@ -93,6 +433,83 @@ function Recipes({ setRecipeDetail }) {
             star: 4,
             url:
                 'https://images.unsplash.com/photo-1604228994005-d76f4139be68?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80',
+            level: 'Beginner',
+            date: 'May 15 2020',
+            desc: {
+                prep: '15mins',
+                cook: '30mins',
+                yeilds: `8 servings`,
+            },
+
+            ingredients: [
+                {
+                    id: 1,
+                    unique: 'box_1',
+                    content: '4 Tbsp (57 gr) butter',
+                },
+                {
+                    id: 2,
+                    unique: 'box_2',
+                    content: '2 large eggs',
+                },
+                {
+                    id: 3,
+                    unique: 'box_3',
+                    content: '2 yogurt containers granulated sugar',
+                },
+                {
+                    id: 8,
+                    unique: 'box_4',
+                    content: '1 vanilla or plain yogurt, 170g container',
+                },
+                {
+                    id: 4,
+                    unique: 'box_5',
+                    content: 'White flour',
+                },
+                {
+                    id: 5,
+                    unique: 'box_6',
+                    content: '1.5 yogurt containers milk',
+                },
+                {
+                    id: 6,
+                    unique: 'box_7',
+                    content: '1/4 tsp cinnamon',
+                },
+                {
+                    id: 7,
+                    unique: 'box_8',
+                    content: '1 cup fresh blueberries',
+                },
+            ],
+            howToCook: [
+                {
+                    id: 1,
+                    content:
+                        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec varius dui. Suspendisse potenti. Vestibulum ac pellentesque tortor. Aenean congue sed metus in iaculis. Cras a tortor enim. Phasellus posuere vestibulum ipsum, eget lobortis purus. Orci varius natoque penatibus et magni.',
+                },
+                {
+                    id: 2,
+                    content:
+                        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec varius dui. Suspendisse potenti. Vestibulum ac pellentesque tortor. Aenean congue sed metus in iaculis. Cras a tortor enim. Phasellus posuere vestibulum ipsum, eget lobortis purus. Orci varius natoque penatibus et magni.',
+                },
+                {
+                    id: 3,
+                    content:
+                        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec varius dui. Suspendisse potenti. Vestibulum ac pellentesque tortor. Aenean congue sed metus in iaculis. Cras a tortor enim. Phasellus posuere vestibulum ipsum, eget lobortis purus. Orci varius natoque penatibus et magni.',
+                },
+                {
+                    id: 4,
+                    content:
+                        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec varius dui. Suspendisse potenti. Vestibulum ac pellentesque tortor. Aenean congue sed metus in iaculis. Cras a tortor enim. Phasellus posuere vestibulum ipsum, eget lobortis purus. Orci varius natoque penatibus et magni.',
+                },
+                {
+                    id: 5,
+                    content:
+                        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec varius dui. Suspendisse potenti. Vestibulum ac pellentesque tortor. Aenean congue sed metus in iaculis. Cras a tortor enim. Phasellus posuere vestibulum ipsum, eget lobortis purus. Orci varius natoque penatibus et magni.',
+                },
+            ],
         },
         {
             id: 7,
@@ -100,6 +517,83 @@ function Recipes({ setRecipeDetail }) {
             star: 4,
             url:
                 'https://images.unsplash.com/photo-1577859623802-b5e3ca51f885?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80',
+            level: 'Beginner',
+            date: 'May 15 2020',
+            desc: {
+                prep: '15mins',
+                cook: '30mins',
+                yeilds: `8 servings`,
+            },
+
+            ingredients: [
+                {
+                    id: 1,
+                    unique: 'box_1',
+                    content: '4 Tbsp (57 gr) butter',
+                },
+                {
+                    id: 2,
+                    unique: 'box_2',
+                    content: '2 large eggs',
+                },
+                {
+                    id: 3,
+                    unique: 'box_3',
+                    content: '2 yogurt containers granulated sugar',
+                },
+                {
+                    id: 8,
+                    unique: 'box_4',
+                    content: '1 vanilla or plain yogurt, 170g container',
+                },
+                {
+                    id: 4,
+                    unique: 'box_5',
+                    content: 'White flour',
+                },
+                {
+                    id: 5,
+                    unique: 'box_6',
+                    content: '1.5 yogurt containers milk',
+                },
+                {
+                    id: 6,
+                    unique: 'box_7',
+                    content: '1/4 tsp cinnamon',
+                },
+                {
+                    id: 7,
+                    unique: 'box_8',
+                    content: '1 cup fresh blueberries',
+                },
+            ],
+            howToCook: [
+                {
+                    id: 1,
+                    content:
+                        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec varius dui. Suspendisse potenti. Vestibulum ac pellentesque tortor. Aenean congue sed metus in iaculis. Cras a tortor enim. Phasellus posuere vestibulum ipsum, eget lobortis purus. Orci varius natoque penatibus et magni.',
+                },
+                {
+                    id: 2,
+                    content:
+                        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec varius dui. Suspendisse potenti. Vestibulum ac pellentesque tortor. Aenean congue sed metus in iaculis. Cras a tortor enim. Phasellus posuere vestibulum ipsum, eget lobortis purus. Orci varius natoque penatibus et magni.',
+                },
+                {
+                    id: 3,
+                    content:
+                        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec varius dui. Suspendisse potenti. Vestibulum ac pellentesque tortor. Aenean congue sed metus in iaculis. Cras a tortor enim. Phasellus posuere vestibulum ipsum, eget lobortis purus. Orci varius natoque penatibus et magni.',
+                },
+                {
+                    id: 4,
+                    content:
+                        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec varius dui. Suspendisse potenti. Vestibulum ac pellentesque tortor. Aenean congue sed metus in iaculis. Cras a tortor enim. Phasellus posuere vestibulum ipsum, eget lobortis purus. Orci varius natoque penatibus et magni.',
+                },
+                {
+                    id: 5,
+                    content:
+                        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec varius dui. Suspendisse potenti. Vestibulum ac pellentesque tortor. Aenean congue sed metus in iaculis. Cras a tortor enim. Phasellus posuere vestibulum ipsum, eget lobortis purus. Orci varius natoque penatibus et magni.',
+                },
+            ],
         },
         {
             id: 8,
@@ -107,6 +601,83 @@ function Recipes({ setRecipeDetail }) {
             star: 4,
             url:
                 'https://images.unsplash.com/photo-1590420882553-4f9150b71f92?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1945&q=80',
+            level: 'Beginner',
+            date: 'May 15 2020',
+            desc: {
+                prep: '15mins',
+                cook: '30mins',
+                yeilds: `8 servings`,
+            },
+
+            ingredients: [
+                {
+                    id: 1,
+                    unique: 'box_1',
+                    content: '4 Tbsp (57 gr) butter',
+                },
+                {
+                    id: 2,
+                    unique: 'box_2',
+                    content: '2 large eggs',
+                },
+                {
+                    id: 3,
+                    unique: 'box_3',
+                    content: '2 yogurt containers granulated sugar',
+                },
+                {
+                    id: 8,
+                    unique: 'box_4',
+                    content: '1 vanilla or plain yogurt, 170g container',
+                },
+                {
+                    id: 4,
+                    unique: 'box_5',
+                    content: 'White flour',
+                },
+                {
+                    id: 5,
+                    unique: 'box_6',
+                    content: '1.5 yogurt containers milk',
+                },
+                {
+                    id: 6,
+                    unique: 'box_7',
+                    content: '1/4 tsp cinnamon',
+                },
+                {
+                    id: 7,
+                    unique: 'box_8',
+                    content: '1 cup fresh blueberries',
+                },
+            ],
+            howToCook: [
+                {
+                    id: 1,
+                    content:
+                        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec varius dui. Suspendisse potenti. Vestibulum ac pellentesque tortor. Aenean congue sed metus in iaculis. Cras a tortor enim. Phasellus posuere vestibulum ipsum, eget lobortis purus. Orci varius natoque penatibus et magni.',
+                },
+                {
+                    id: 2,
+                    content:
+                        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec varius dui. Suspendisse potenti. Vestibulum ac pellentesque tortor. Aenean congue sed metus in iaculis. Cras a tortor enim. Phasellus posuere vestibulum ipsum, eget lobortis purus. Orci varius natoque penatibus et magni.',
+                },
+                {
+                    id: 3,
+                    content:
+                        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec varius dui. Suspendisse potenti. Vestibulum ac pellentesque tortor. Aenean congue sed metus in iaculis. Cras a tortor enim. Phasellus posuere vestibulum ipsum, eget lobortis purus. Orci varius natoque penatibus et magni.',
+                },
+                {
+                    id: 4,
+                    content:
+                        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec varius dui. Suspendisse potenti. Vestibulum ac pellentesque tortor. Aenean congue sed metus in iaculis. Cras a tortor enim. Phasellus posuere vestibulum ipsum, eget lobortis purus. Orci varius natoque penatibus et magni.',
+                },
+                {
+                    id: 5,
+                    content:
+                        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec varius dui. Suspendisse potenti. Vestibulum ac pellentesque tortor. Aenean congue sed metus in iaculis. Cras a tortor enim. Phasellus posuere vestibulum ipsum, eget lobortis purus. Orci varius natoque penatibus et magni.',
+                },
+            ],
         },
         {
             id: 9,
@@ -114,6 +685,83 @@ function Recipes({ setRecipeDetail }) {
             star: 4,
             url:
                 'https://images.unsplash.com/photo-1599719455360-ff0be7c4dd06?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1932&q=80',
+            level: 'Beginner',
+            date: 'May 15 2020',
+            desc: {
+                prep: '15mins',
+                cook: '30mins',
+                yeilds: `8 servings`,
+            },
+
+            ingredients: [
+                {
+                    id: 1,
+                    unique: 'box_1',
+                    content: '4 Tbsp (57 gr) butter',
+                },
+                {
+                    id: 2,
+                    unique: 'box_2',
+                    content: '2 large eggs',
+                },
+                {
+                    id: 3,
+                    unique: 'box_3',
+                    content: '2 yogurt containers granulated sugar',
+                },
+                {
+                    id: 8,
+                    unique: 'box_4',
+                    content: '1 vanilla or plain yogurt, 170g container',
+                },
+                {
+                    id: 4,
+                    unique: 'box_5',
+                    content: 'White flour',
+                },
+                {
+                    id: 5,
+                    unique: 'box_6',
+                    content: '1.5 yogurt containers milk',
+                },
+                {
+                    id: 6,
+                    unique: 'box_7',
+                    content: '1/4 tsp cinnamon',
+                },
+                {
+                    id: 7,
+                    unique: 'box_8',
+                    content: '1 cup fresh blueberries',
+                },
+            ],
+            howToCook: [
+                {
+                    id: 1,
+                    content:
+                        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec varius dui. Suspendisse potenti. Vestibulum ac pellentesque tortor. Aenean congue sed metus in iaculis. Cras a tortor enim. Phasellus posuere vestibulum ipsum, eget lobortis purus. Orci varius natoque penatibus et magni.',
+                },
+                {
+                    id: 2,
+                    content:
+                        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec varius dui. Suspendisse potenti. Vestibulum ac pellentesque tortor. Aenean congue sed metus in iaculis. Cras a tortor enim. Phasellus posuere vestibulum ipsum, eget lobortis purus. Orci varius natoque penatibus et magni.',
+                },
+                {
+                    id: 3,
+                    content:
+                        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec varius dui. Suspendisse potenti. Vestibulum ac pellentesque tortor. Aenean congue sed metus in iaculis. Cras a tortor enim. Phasellus posuere vestibulum ipsum, eget lobortis purus. Orci varius natoque penatibus et magni.',
+                },
+                {
+                    id: 4,
+                    content:
+                        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec varius dui. Suspendisse potenti. Vestibulum ac pellentesque tortor. Aenean congue sed metus in iaculis. Cras a tortor enim. Phasellus posuere vestibulum ipsum, eget lobortis purus. Orci varius natoque penatibus et magni.',
+                },
+                {
+                    id: 5,
+                    content:
+                        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec varius dui. Suspendisse potenti. Vestibulum ac pellentesque tortor. Aenean congue sed metus in iaculis. Cras a tortor enim. Phasellus posuere vestibulum ipsum, eget lobortis purus. Orci varius natoque penatibus et magni.',
+                },
+            ],
         },
         {
             id: 10,
@@ -121,6 +769,83 @@ function Recipes({ setRecipeDetail }) {
             star: 4,
             url:
                 'https://images.unsplash.com/photo-1432139555190-58524dae6a55?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1955&q=80',
+            level: 'Beginner',
+            date: 'May 15 2020',
+            desc: {
+                prep: '15mins',
+                cook: '30mins',
+                yeilds: `8 servings`,
+            },
+
+            ingredients: [
+                {
+                    id: 1,
+                    unique: 'box_1',
+                    content: '4 Tbsp (57 gr) butter',
+                },
+                {
+                    id: 2,
+                    unique: 'box_2',
+                    content: '2 large eggs',
+                },
+                {
+                    id: 3,
+                    unique: 'box_3',
+                    content: '2 yogurt containers granulated sugar',
+                },
+                {
+                    id: 8,
+                    unique: 'box_4',
+                    content: '1 vanilla or plain yogurt, 170g container',
+                },
+                {
+                    id: 4,
+                    unique: 'box_5',
+                    content: 'White flour',
+                },
+                {
+                    id: 5,
+                    unique: 'box_6',
+                    content: '1.5 yogurt containers milk',
+                },
+                {
+                    id: 6,
+                    unique: 'box_7',
+                    content: '1/4 tsp cinnamon',
+                },
+                {
+                    id: 7,
+                    unique: 'box_8',
+                    content: '1 cup fresh blueberries',
+                },
+            ],
+            howToCook: [
+                {
+                    id: 1,
+                    content:
+                        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec varius dui. Suspendisse potenti. Vestibulum ac pellentesque tortor. Aenean congue sed metus in iaculis. Cras a tortor enim. Phasellus posuere vestibulum ipsum, eget lobortis purus. Orci varius natoque penatibus et magni.',
+                },
+                {
+                    id: 2,
+                    content:
+                        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec varius dui. Suspendisse potenti. Vestibulum ac pellentesque tortor. Aenean congue sed metus in iaculis. Cras a tortor enim. Phasellus posuere vestibulum ipsum, eget lobortis purus. Orci varius natoque penatibus et magni.',
+                },
+                {
+                    id: 3,
+                    content:
+                        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec varius dui. Suspendisse potenti. Vestibulum ac pellentesque tortor. Aenean congue sed metus in iaculis. Cras a tortor enim. Phasellus posuere vestibulum ipsum, eget lobortis purus. Orci varius natoque penatibus et magni.',
+                },
+                {
+                    id: 4,
+                    content:
+                        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec varius dui. Suspendisse potenti. Vestibulum ac pellentesque tortor. Aenean congue sed metus in iaculis. Cras a tortor enim. Phasellus posuere vestibulum ipsum, eget lobortis purus. Orci varius natoque penatibus et magni.',
+                },
+                {
+                    id: 5,
+                    content:
+                        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec varius dui. Suspendisse potenti. Vestibulum ac pellentesque tortor. Aenean congue sed metus in iaculis. Cras a tortor enim. Phasellus posuere vestibulum ipsum, eget lobortis purus. Orci varius natoque penatibus et magni.',
+                },
+            ],
         },
         {
             id: 11,
@@ -128,6 +853,83 @@ function Recipes({ setRecipeDetail }) {
             star: 4,
             url:
                 'https://images.unsplash.com/photo-1593787614839-9b93c8998f25?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80',
+            level: 'Beginner',
+            date: 'May 15 2020',
+            desc: {
+                prep: '15mins',
+                cook: '30mins',
+                yeilds: `8 servings`,
+            },
+
+            ingredients: [
+                {
+                    id: 1,
+                    unique: 'box_1',
+                    content: '4 Tbsp (57 gr) butter',
+                },
+                {
+                    id: 2,
+                    unique: 'box_2',
+                    content: '2 large eggs',
+                },
+                {
+                    id: 3,
+                    unique: 'box_3',
+                    content: '2 yogurt containers granulated sugar',
+                },
+                {
+                    id: 8,
+                    unique: 'box_4',
+                    content: '1 vanilla or plain yogurt, 170g container',
+                },
+                {
+                    id: 4,
+                    unique: 'box_5',
+                    content: 'White flour',
+                },
+                {
+                    id: 5,
+                    unique: 'box_6',
+                    content: '1.5 yogurt containers milk',
+                },
+                {
+                    id: 6,
+                    unique: 'box_7',
+                    content: '1/4 tsp cinnamon',
+                },
+                {
+                    id: 7,
+                    unique: 'box_8',
+                    content: '1 cup fresh blueberries',
+                },
+            ],
+            howToCook: [
+                {
+                    id: 1,
+                    content:
+                        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec varius dui. Suspendisse potenti. Vestibulum ac pellentesque tortor. Aenean congue sed metus in iaculis. Cras a tortor enim. Phasellus posuere vestibulum ipsum, eget lobortis purus. Orci varius natoque penatibus et magni.',
+                },
+                {
+                    id: 2,
+                    content:
+                        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec varius dui. Suspendisse potenti. Vestibulum ac pellentesque tortor. Aenean congue sed metus in iaculis. Cras a tortor enim. Phasellus posuere vestibulum ipsum, eget lobortis purus. Orci varius natoque penatibus et magni.',
+                },
+                {
+                    id: 3,
+                    content:
+                        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec varius dui. Suspendisse potenti. Vestibulum ac pellentesque tortor. Aenean congue sed metus in iaculis. Cras a tortor enim. Phasellus posuere vestibulum ipsum, eget lobortis purus. Orci varius natoque penatibus et magni.',
+                },
+                {
+                    id: 4,
+                    content:
+                        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec varius dui. Suspendisse potenti. Vestibulum ac pellentesque tortor. Aenean congue sed metus in iaculis. Cras a tortor enim. Phasellus posuere vestibulum ipsum, eget lobortis purus. Orci varius natoque penatibus et magni.',
+                },
+                {
+                    id: 5,
+                    content:
+                        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec varius dui. Suspendisse potenti. Vestibulum ac pellentesque tortor. Aenean congue sed metus in iaculis. Cras a tortor enim. Phasellus posuere vestibulum ipsum, eget lobortis purus. Orci varius natoque penatibus et magni.',
+                },
+            ],
         },
         {
             id: 12,
@@ -135,6 +937,83 @@ function Recipes({ setRecipeDetail }) {
             star: 4,
             url:
                 'https://images.unsplash.com/photo-1589942151968-89bfe5d60c61?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80',
+            level: 'Beginner',
+            date: 'May 15 2020',
+            desc: {
+                prep: '15mins',
+                cook: '30mins',
+                yeilds: `8 servings`,
+            },
+
+            ingredients: [
+                {
+                    id: 1,
+                    unique: 'box_1',
+                    content: '4 Tbsp (57 gr) butter',
+                },
+                {
+                    id: 2,
+                    unique: 'box_2',
+                    content: '2 large eggs',
+                },
+                {
+                    id: 3,
+                    unique: 'box_3',
+                    content: '2 yogurt containers granulated sugar',
+                },
+                {
+                    id: 8,
+                    unique: 'box_4',
+                    content: '1 vanilla or plain yogurt, 170g container',
+                },
+                {
+                    id: 4,
+                    unique: 'box_5',
+                    content: 'White flour',
+                },
+                {
+                    id: 5,
+                    unique: 'box_6',
+                    content: '1.5 yogurt containers milk',
+                },
+                {
+                    id: 6,
+                    unique: 'box_7',
+                    content: '1/4 tsp cinnamon',
+                },
+                {
+                    id: 7,
+                    unique: 'box_8',
+                    content: '1 cup fresh blueberries',
+                },
+            ],
+            howToCook: [
+                {
+                    id: 1,
+                    content:
+                        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec varius dui. Suspendisse potenti. Vestibulum ac pellentesque tortor. Aenean congue sed metus in iaculis. Cras a tortor enim. Phasellus posuere vestibulum ipsum, eget lobortis purus. Orci varius natoque penatibus et magni.',
+                },
+                {
+                    id: 2,
+                    content:
+                        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec varius dui. Suspendisse potenti. Vestibulum ac pellentesque tortor. Aenean congue sed metus in iaculis. Cras a tortor enim. Phasellus posuere vestibulum ipsum, eget lobortis purus. Orci varius natoque penatibus et magni.',
+                },
+                {
+                    id: 3,
+                    content:
+                        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec varius dui. Suspendisse potenti. Vestibulum ac pellentesque tortor. Aenean congue sed metus in iaculis. Cras a tortor enim. Phasellus posuere vestibulum ipsum, eget lobortis purus. Orci varius natoque penatibus et magni.',
+                },
+                {
+                    id: 4,
+                    content:
+                        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec varius dui. Suspendisse potenti. Vestibulum ac pellentesque tortor. Aenean congue sed metus in iaculis. Cras a tortor enim. Phasellus posuere vestibulum ipsum, eget lobortis purus. Orci varius natoque penatibus et magni.',
+                },
+                {
+                    id: 5,
+                    content:
+                        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec varius dui. Suspendisse potenti. Vestibulum ac pellentesque tortor. Aenean congue sed metus in iaculis. Cras a tortor enim. Phasellus posuere vestibulum ipsum, eget lobortis purus. Orci varius natoque penatibus et magni.',
+                },
+            ],
         },
         {
             id: 13,
@@ -142,6 +1021,83 @@ function Recipes({ setRecipeDetail }) {
             star: 4,
             url:
                 'https://images.unsplash.com/photo-1560717844-cd0b22784b00?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80',
+            level: 'Beginner',
+            date: 'May 15 2020',
+            desc: {
+                prep: '15mins',
+                cook: '30mins',
+                yeilds: `8 servings`,
+            },
+
+            ingredients: [
+                {
+                    id: 1,
+                    unique: 'box_1',
+                    content: '4 Tbsp (57 gr) butter',
+                },
+                {
+                    id: 2,
+                    unique: 'box_2',
+                    content: '2 large eggs',
+                },
+                {
+                    id: 3,
+                    unique: 'box_3',
+                    content: '2 yogurt containers granulated sugar',
+                },
+                {
+                    id: 8,
+                    unique: 'box_4',
+                    content: '1 vanilla or plain yogurt, 170g container',
+                },
+                {
+                    id: 4,
+                    unique: 'box_5',
+                    content: 'White flour',
+                },
+                {
+                    id: 5,
+                    unique: 'box_6',
+                    content: '1.5 yogurt containers milk',
+                },
+                {
+                    id: 6,
+                    unique: 'box_7',
+                    content: '1/4 tsp cinnamon',
+                },
+                {
+                    id: 7,
+                    unique: 'box_8',
+                    content: '1 cup fresh blueberries',
+                },
+            ],
+            howToCook: [
+                {
+                    id: 1,
+                    content:
+                        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec varius dui. Suspendisse potenti. Vestibulum ac pellentesque tortor. Aenean congue sed metus in iaculis. Cras a tortor enim. Phasellus posuere vestibulum ipsum, eget lobortis purus. Orci varius natoque penatibus et magni.',
+                },
+                {
+                    id: 2,
+                    content:
+                        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec varius dui. Suspendisse potenti. Vestibulum ac pellentesque tortor. Aenean congue sed metus in iaculis. Cras a tortor enim. Phasellus posuere vestibulum ipsum, eget lobortis purus. Orci varius natoque penatibus et magni.',
+                },
+                {
+                    id: 3,
+                    content:
+                        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec varius dui. Suspendisse potenti. Vestibulum ac pellentesque tortor. Aenean congue sed metus in iaculis. Cras a tortor enim. Phasellus posuere vestibulum ipsum, eget lobortis purus. Orci varius natoque penatibus et magni.',
+                },
+                {
+                    id: 4,
+                    content:
+                        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec varius dui. Suspendisse potenti. Vestibulum ac pellentesque tortor. Aenean congue sed metus in iaculis. Cras a tortor enim. Phasellus posuere vestibulum ipsum, eget lobortis purus. Orci varius natoque penatibus et magni.',
+                },
+                {
+                    id: 5,
+                    content:
+                        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec varius dui. Suspendisse potenti. Vestibulum ac pellentesque tortor. Aenean congue sed metus in iaculis. Cras a tortor enim. Phasellus posuere vestibulum ipsum, eget lobortis purus. Orci varius natoque penatibus et magni.',
+                },
+            ],
         },
         {
             id: 14,
@@ -149,6 +1105,83 @@ function Recipes({ setRecipeDetail }) {
             star: 4,
             url:
                 'https://images.unsplash.com/photo-1555178897-7774373fbe9e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80',
+            level: 'Beginner',
+            date: 'May 15 2020',
+            desc: {
+                prep: '15mins',
+                cook: '30mins',
+                yeilds: `8 servings`,
+            },
+
+            ingredients: [
+                {
+                    id: 1,
+                    unique: 'box_1',
+                    content: '4 Tbsp (57 gr) butter',
+                },
+                {
+                    id: 2,
+                    unique: 'box_2',
+                    content: '2 large eggs',
+                },
+                {
+                    id: 3,
+                    unique: 'box_3',
+                    content: '2 yogurt containers granulated sugar',
+                },
+                {
+                    id: 8,
+                    unique: 'box_4',
+                    content: '1 vanilla or plain yogurt, 170g container',
+                },
+                {
+                    id: 4,
+                    unique: 'box_5',
+                    content: 'White flour',
+                },
+                {
+                    id: 5,
+                    unique: 'box_6',
+                    content: '1.5 yogurt containers milk',
+                },
+                {
+                    id: 6,
+                    unique: 'box_7',
+                    content: '1/4 tsp cinnamon',
+                },
+                {
+                    id: 7,
+                    unique: 'box_8',
+                    content: '1 cup fresh blueberries',
+                },
+            ],
+            howToCook: [
+                {
+                    id: 1,
+                    content:
+                        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec varius dui. Suspendisse potenti. Vestibulum ac pellentesque tortor. Aenean congue sed metus in iaculis. Cras a tortor enim. Phasellus posuere vestibulum ipsum, eget lobortis purus. Orci varius natoque penatibus et magni.',
+                },
+                {
+                    id: 2,
+                    content:
+                        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec varius dui. Suspendisse potenti. Vestibulum ac pellentesque tortor. Aenean congue sed metus in iaculis. Cras a tortor enim. Phasellus posuere vestibulum ipsum, eget lobortis purus. Orci varius natoque penatibus et magni.',
+                },
+                {
+                    id: 3,
+                    content:
+                        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec varius dui. Suspendisse potenti. Vestibulum ac pellentesque tortor. Aenean congue sed metus in iaculis. Cras a tortor enim. Phasellus posuere vestibulum ipsum, eget lobortis purus. Orci varius natoque penatibus et magni.',
+                },
+                {
+                    id: 4,
+                    content:
+                        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec varius dui. Suspendisse potenti. Vestibulum ac pellentesque tortor. Aenean congue sed metus in iaculis. Cras a tortor enim. Phasellus posuere vestibulum ipsum, eget lobortis purus. Orci varius natoque penatibus et magni.',
+                },
+                {
+                    id: 5,
+                    content:
+                        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec varius dui. Suspendisse potenti. Vestibulum ac pellentesque tortor. Aenean congue sed metus in iaculis. Cras a tortor enim. Phasellus posuere vestibulum ipsum, eget lobortis purus. Orci varius natoque penatibus et magni.',
+                },
+            ],
         },
         {
             id: 15,
@@ -156,6 +1189,83 @@ function Recipes({ setRecipeDetail }) {
             star: 4,
             url:
                 'https://images.unsplash.com/photo-1565511223310-ee01e273da15?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80',
+            level: 'Beginner',
+            date: 'May 15 2020',
+            desc: {
+                prep: '15mins',
+                cook: '30mins',
+                yeilds: `8 servings`,
+            },
+
+            ingredients: [
+                {
+                    id: 1,
+                    unique: 'box_1',
+                    content: '4 Tbsp (57 gr) butter',
+                },
+                {
+                    id: 2,
+                    unique: 'box_2',
+                    content: '2 large eggs',
+                },
+                {
+                    id: 3,
+                    unique: 'box_3',
+                    content: '2 yogurt containers granulated sugar',
+                },
+                {
+                    id: 8,
+                    unique: 'box_4',
+                    content: '1 vanilla or plain yogurt, 170g container',
+                },
+                {
+                    id: 4,
+                    unique: 'box_5',
+                    content: 'White flour',
+                },
+                {
+                    id: 5,
+                    unique: 'box_6',
+                    content: '1.5 yogurt containers milk',
+                },
+                {
+                    id: 6,
+                    unique: 'box_7',
+                    content: '1/4 tsp cinnamon',
+                },
+                {
+                    id: 7,
+                    unique: 'box_8',
+                    content: '1 cup fresh blueberries',
+                },
+            ],
+            howToCook: [
+                {
+                    id: 1,
+                    content:
+                        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec varius dui. Suspendisse potenti. Vestibulum ac pellentesque tortor. Aenean congue sed metus in iaculis. Cras a tortor enim. Phasellus posuere vestibulum ipsum, eget lobortis purus. Orci varius natoque penatibus et magni.',
+                },
+                {
+                    id: 2,
+                    content:
+                        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec varius dui. Suspendisse potenti. Vestibulum ac pellentesque tortor. Aenean congue sed metus in iaculis. Cras a tortor enim. Phasellus posuere vestibulum ipsum, eget lobortis purus. Orci varius natoque penatibus et magni.',
+                },
+                {
+                    id: 3,
+                    content:
+                        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec varius dui. Suspendisse potenti. Vestibulum ac pellentesque tortor. Aenean congue sed metus in iaculis. Cras a tortor enim. Phasellus posuere vestibulum ipsum, eget lobortis purus. Orci varius natoque penatibus et magni.',
+                },
+                {
+                    id: 4,
+                    content:
+                        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec varius dui. Suspendisse potenti. Vestibulum ac pellentesque tortor. Aenean congue sed metus in iaculis. Cras a tortor enim. Phasellus posuere vestibulum ipsum, eget lobortis purus. Orci varius natoque penatibus et magni.',
+                },
+                {
+                    id: 5,
+                    content:
+                        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec varius dui. Suspendisse potenti. Vestibulum ac pellentesque tortor. Aenean congue sed metus in iaculis. Cras a tortor enim. Phasellus posuere vestibulum ipsum, eget lobortis purus. Orci varius natoque penatibus et magni.',
+                },
+            ],
         },
         {
             id: 16,
@@ -163,6 +1273,83 @@ function Recipes({ setRecipeDetail }) {
             star: 4,
             url:
                 'https://images.unsplash.com/photo-1532636875304-0c89119d9b4d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80',
+            level: 'Beginner',
+            date: 'May 15 2020',
+            desc: {
+                prep: '15mins',
+                cook: '30mins',
+                yeilds: `8 servings`,
+            },
+
+            ingredients: [
+                {
+                    id: 1,
+                    unique: 'box_1',
+                    content: '4 Tbsp (57 gr) butter',
+                },
+                {
+                    id: 2,
+                    unique: 'box_2',
+                    content: '2 large eggs',
+                },
+                {
+                    id: 3,
+                    unique: 'box_3',
+                    content: '2 yogurt containers granulated sugar',
+                },
+                {
+                    id: 8,
+                    unique: 'box_4',
+                    content: '1 vanilla or plain yogurt, 170g container',
+                },
+                {
+                    id: 4,
+                    unique: 'box_5',
+                    content: 'White flour',
+                },
+                {
+                    id: 5,
+                    unique: 'box_6',
+                    content: '1.5 yogurt containers milk',
+                },
+                {
+                    id: 6,
+                    unique: 'box_7',
+                    content: '1/4 tsp cinnamon',
+                },
+                {
+                    id: 7,
+                    unique: 'box_8',
+                    content: '1 cup fresh blueberries',
+                },
+            ],
+            howToCook: [
+                {
+                    id: 1,
+                    content:
+                        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec varius dui. Suspendisse potenti. Vestibulum ac pellentesque tortor. Aenean congue sed metus in iaculis. Cras a tortor enim. Phasellus posuere vestibulum ipsum, eget lobortis purus. Orci varius natoque penatibus et magni.',
+                },
+                {
+                    id: 2,
+                    content:
+                        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec varius dui. Suspendisse potenti. Vestibulum ac pellentesque tortor. Aenean congue sed metus in iaculis. Cras a tortor enim. Phasellus posuere vestibulum ipsum, eget lobortis purus. Orci varius natoque penatibus et magni.',
+                },
+                {
+                    id: 3,
+                    content:
+                        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec varius dui. Suspendisse potenti. Vestibulum ac pellentesque tortor. Aenean congue sed metus in iaculis. Cras a tortor enim. Phasellus posuere vestibulum ipsum, eget lobortis purus. Orci varius natoque penatibus et magni.',
+                },
+                {
+                    id: 4,
+                    content:
+                        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec varius dui. Suspendisse potenti. Vestibulum ac pellentesque tortor. Aenean congue sed metus in iaculis. Cras a tortor enim. Phasellus posuere vestibulum ipsum, eget lobortis purus. Orci varius natoque penatibus et magni.',
+                },
+                {
+                    id: 5,
+                    content:
+                        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec varius dui. Suspendisse potenti. Vestibulum ac pellentesque tortor. Aenean congue sed metus in iaculis. Cras a tortor enim. Phasellus posuere vestibulum ipsum, eget lobortis purus. Orci varius natoque penatibus et magni.',
+                },
+            ],
         },
         {
             id: 17,
@@ -170,6 +1357,83 @@ function Recipes({ setRecipeDetail }) {
             star: 4,
             url:
                 'https://images.unsplash.com/photo-1598515213692-5f252f75d785?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80',
+            level: 'Beginner',
+            date: 'May 15 2020',
+            desc: {
+                prep: '15mins',
+                cook: '30mins',
+                yeilds: `8 servings`,
+            },
+
+            ingredients: [
+                {
+                    id: 1,
+                    unique: 'box_1',
+                    content: '4 Tbsp (57 gr) butter',
+                },
+                {
+                    id: 2,
+                    unique: 'box_2',
+                    content: '2 large eggs',
+                },
+                {
+                    id: 3,
+                    unique: 'box_3',
+                    content: '2 yogurt containers granulated sugar',
+                },
+                {
+                    id: 8,
+                    unique: 'box_4',
+                    content: '1 vanilla or plain yogurt, 170g container',
+                },
+                {
+                    id: 4,
+                    unique: 'box_5',
+                    content: 'White flour',
+                },
+                {
+                    id: 5,
+                    unique: 'box_6',
+                    content: '1.5 yogurt containers milk',
+                },
+                {
+                    id: 6,
+                    unique: 'box_7',
+                    content: '1/4 tsp cinnamon',
+                },
+                {
+                    id: 7,
+                    unique: 'box_8',
+                    content: '1 cup fresh blueberries',
+                },
+            ],
+            howToCook: [
+                {
+                    id: 1,
+                    content:
+                        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec varius dui. Suspendisse potenti. Vestibulum ac pellentesque tortor. Aenean congue sed metus in iaculis. Cras a tortor enim. Phasellus posuere vestibulum ipsum, eget lobortis purus. Orci varius natoque penatibus et magni.',
+                },
+                {
+                    id: 2,
+                    content:
+                        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec varius dui. Suspendisse potenti. Vestibulum ac pellentesque tortor. Aenean congue sed metus in iaculis. Cras a tortor enim. Phasellus posuere vestibulum ipsum, eget lobortis purus. Orci varius natoque penatibus et magni.',
+                },
+                {
+                    id: 3,
+                    content:
+                        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec varius dui. Suspendisse potenti. Vestibulum ac pellentesque tortor. Aenean congue sed metus in iaculis. Cras a tortor enim. Phasellus posuere vestibulum ipsum, eget lobortis purus. Orci varius natoque penatibus et magni.',
+                },
+                {
+                    id: 4,
+                    content:
+                        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec varius dui. Suspendisse potenti. Vestibulum ac pellentesque tortor. Aenean congue sed metus in iaculis. Cras a tortor enim. Phasellus posuere vestibulum ipsum, eget lobortis purus. Orci varius natoque penatibus et magni.',
+                },
+                {
+                    id: 5,
+                    content:
+                        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec varius dui. Suspendisse potenti. Vestibulum ac pellentesque tortor. Aenean congue sed metus in iaculis. Cras a tortor enim. Phasellus posuere vestibulum ipsum, eget lobortis purus. Orci varius natoque penatibus et magni.',
+                },
+            ],
         },
         {
             id: 18,
@@ -177,6 +1441,83 @@ function Recipes({ setRecipeDetail }) {
             star: 4,
             url:
                 'https://images.unsplash.com/photo-1512058564366-18510be2db19?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1952&q=80',
+            level: 'Beginner',
+            date: 'May 15 2020',
+            desc: {
+                prep: '15mins',
+                cook: '30mins',
+                yeilds: `8 servings`,
+            },
+
+            ingredients: [
+                {
+                    id: 1,
+                    unique: 'box_1',
+                    content: '4 Tbsp (57 gr) butter',
+                },
+                {
+                    id: 2,
+                    unique: 'box_2',
+                    content: '2 large eggs',
+                },
+                {
+                    id: 3,
+                    unique: 'box_3',
+                    content: '2 yogurt containers granulated sugar',
+                },
+                {
+                    id: 8,
+                    unique: 'box_4',
+                    content: '1 vanilla or plain yogurt, 170g container',
+                },
+                {
+                    id: 4,
+                    unique: 'box_5',
+                    content: 'White flour',
+                },
+                {
+                    id: 5,
+                    unique: 'box_6',
+                    content: '1.5 yogurt containers milk',
+                },
+                {
+                    id: 6,
+                    unique: 'box_7',
+                    content: '1/4 tsp cinnamon',
+                },
+                {
+                    id: 7,
+                    unique: 'box_8',
+                    content: '1 cup fresh blueberries',
+                },
+            ],
+            howToCook: [
+                {
+                    id: 1,
+                    content:
+                        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec varius dui. Suspendisse potenti. Vestibulum ac pellentesque tortor. Aenean congue sed metus in iaculis. Cras a tortor enim. Phasellus posuere vestibulum ipsum, eget lobortis purus. Orci varius natoque penatibus et magni.',
+                },
+                {
+                    id: 2,
+                    content:
+                        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec varius dui. Suspendisse potenti. Vestibulum ac pellentesque tortor. Aenean congue sed metus in iaculis. Cras a tortor enim. Phasellus posuere vestibulum ipsum, eget lobortis purus. Orci varius natoque penatibus et magni.',
+                },
+                {
+                    id: 3,
+                    content:
+                        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec varius dui. Suspendisse potenti. Vestibulum ac pellentesque tortor. Aenean congue sed metus in iaculis. Cras a tortor enim. Phasellus posuere vestibulum ipsum, eget lobortis purus. Orci varius natoque penatibus et magni.',
+                },
+                {
+                    id: 4,
+                    content:
+                        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec varius dui. Suspendisse potenti. Vestibulum ac pellentesque tortor. Aenean congue sed metus in iaculis. Cras a tortor enim. Phasellus posuere vestibulum ipsum, eget lobortis purus. Orci varius natoque penatibus et magni.',
+                },
+                {
+                    id: 5,
+                    content:
+                        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec varius dui. Suspendisse potenti. Vestibulum ac pellentesque tortor. Aenean congue sed metus in iaculis. Cras a tortor enim. Phasellus posuere vestibulum ipsum, eget lobortis purus. Orci varius natoque penatibus et magni.',
+                },
+            ],
         },
         {
             id: 19,
@@ -184,6 +1525,83 @@ function Recipes({ setRecipeDetail }) {
             star: 4,
             url:
                 'https://images.unsplash.com/photo-1475090169767-40ed8d18f67d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2089&q=80',
+            level: 'Beginner',
+            date: 'May 15 2020',
+            desc: {
+                prep: '15mins',
+                cook: '30mins',
+                yeilds: `8 servings`,
+            },
+
+            ingredients: [
+                {
+                    id: 1,
+                    unique: 'box_1',
+                    content: '4 Tbsp (57 gr) butter',
+                },
+                {
+                    id: 2,
+                    unique: 'box_2',
+                    content: '2 large eggs',
+                },
+                {
+                    id: 3,
+                    unique: 'box_3',
+                    content: '2 yogurt containers granulated sugar',
+                },
+                {
+                    id: 8,
+                    unique: 'box_4',
+                    content: '1 vanilla or plain yogurt, 170g container',
+                },
+                {
+                    id: 4,
+                    unique: 'box_5',
+                    content: 'White flour',
+                },
+                {
+                    id: 5,
+                    unique: 'box_6',
+                    content: '1.5 yogurt containers milk',
+                },
+                {
+                    id: 6,
+                    unique: 'box_7',
+                    content: '1/4 tsp cinnamon',
+                },
+                {
+                    id: 7,
+                    unique: 'box_8',
+                    content: '1 cup fresh blueberries',
+                },
+            ],
+            howToCook: [
+                {
+                    id: 1,
+                    content:
+                        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec varius dui. Suspendisse potenti. Vestibulum ac pellentesque tortor. Aenean congue sed metus in iaculis. Cras a tortor enim. Phasellus posuere vestibulum ipsum, eget lobortis purus. Orci varius natoque penatibus et magni.',
+                },
+                {
+                    id: 2,
+                    content:
+                        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec varius dui. Suspendisse potenti. Vestibulum ac pellentesque tortor. Aenean congue sed metus in iaculis. Cras a tortor enim. Phasellus posuere vestibulum ipsum, eget lobortis purus. Orci varius natoque penatibus et magni.',
+                },
+                {
+                    id: 3,
+                    content:
+                        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec varius dui. Suspendisse potenti. Vestibulum ac pellentesque tortor. Aenean congue sed metus in iaculis. Cras a tortor enim. Phasellus posuere vestibulum ipsum, eget lobortis purus. Orci varius natoque penatibus et magni.',
+                },
+                {
+                    id: 4,
+                    content:
+                        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec varius dui. Suspendisse potenti. Vestibulum ac pellentesque tortor. Aenean congue sed metus in iaculis. Cras a tortor enim. Phasellus posuere vestibulum ipsum, eget lobortis purus. Orci varius natoque penatibus et magni.',
+                },
+                {
+                    id: 5,
+                    content:
+                        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec varius dui. Suspendisse potenti. Vestibulum ac pellentesque tortor. Aenean congue sed metus in iaculis. Cras a tortor enim. Phasellus posuere vestibulum ipsum, eget lobortis purus. Orci varius natoque penatibus et magni.',
+                },
+            ],
         },
         {
             id: 20,
@@ -191,6 +1609,83 @@ function Recipes({ setRecipeDetail }) {
             star: 4,
             url:
                 'https://images.unsplash.com/photo-1496116218417-1a781b1c416c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80',
+            level: 'Beginner',
+            date: 'May 15 2020',
+            desc: {
+                prep: '15mins',
+                cook: '30mins',
+                yeilds: `8 servings`,
+            },
+
+            ingredients: [
+                {
+                    id: 1,
+                    unique: 'box_1',
+                    content: '4 Tbsp (57 gr) butter',
+                },
+                {
+                    id: 2,
+                    unique: 'box_2',
+                    content: '2 large eggs',
+                },
+                {
+                    id: 3,
+                    unique: 'box_3',
+                    content: '2 yogurt containers granulated sugar',
+                },
+                {
+                    id: 8,
+                    unique: 'box_4',
+                    content: '1 vanilla or plain yogurt, 170g container',
+                },
+                {
+                    id: 4,
+                    unique: 'box_5',
+                    content: 'White flour',
+                },
+                {
+                    id: 5,
+                    unique: 'box_6',
+                    content: '1.5 yogurt containers milk',
+                },
+                {
+                    id: 6,
+                    unique: 'box_7',
+                    content: '1/4 tsp cinnamon',
+                },
+                {
+                    id: 7,
+                    unique: 'box_8',
+                    content: '1 cup fresh blueberries',
+                },
+            ],
+            howToCook: [
+                {
+                    id: 1,
+                    content:
+                        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec varius dui. Suspendisse potenti. Vestibulum ac pellentesque tortor. Aenean congue sed metus in iaculis. Cras a tortor enim. Phasellus posuere vestibulum ipsum, eget lobortis purus. Orci varius natoque penatibus et magni.',
+                },
+                {
+                    id: 2,
+                    content:
+                        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec varius dui. Suspendisse potenti. Vestibulum ac pellentesque tortor. Aenean congue sed metus in iaculis. Cras a tortor enim. Phasellus posuere vestibulum ipsum, eget lobortis purus. Orci varius natoque penatibus et magni.',
+                },
+                {
+                    id: 3,
+                    content:
+                        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec varius dui. Suspendisse potenti. Vestibulum ac pellentesque tortor. Aenean congue sed metus in iaculis. Cras a tortor enim. Phasellus posuere vestibulum ipsum, eget lobortis purus. Orci varius natoque penatibus et magni.',
+                },
+                {
+                    id: 4,
+                    content:
+                        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec varius dui. Suspendisse potenti. Vestibulum ac pellentesque tortor. Aenean congue sed metus in iaculis. Cras a tortor enim. Phasellus posuere vestibulum ipsum, eget lobortis purus. Orci varius natoque penatibus et magni.',
+                },
+                {
+                    id: 5,
+                    content:
+                        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec varius dui. Suspendisse potenti. Vestibulum ac pellentesque tortor. Aenean congue sed metus in iaculis. Cras a tortor enim. Phasellus posuere vestibulum ipsum, eget lobortis purus. Orci varius natoque penatibus et magni.',
+                },
+            ],
         },
     ];
     console.log(typeof recipesList);

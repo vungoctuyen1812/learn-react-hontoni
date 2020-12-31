@@ -6,7 +6,7 @@ $backgroundColor: #ffffffc5;
 .recipeDetail{
     &__heroImg{
         height: 80vh;
-        width: 100vw;
+        
         background-image: cover;
     }
     &__container{
@@ -57,6 +57,7 @@ $backgroundColor: #ffffffc5;
     }
     &__content{
         display: flex;
+        
     }
     &__leftCol{
         min-width: 30%;
@@ -70,6 +71,14 @@ $backgroundColor: #ffffffc5;
         padding-left: 1rem;
         margin-bottom: 2rem;
         
+        & > p {
+            z-index: 999;
+            color: white;
+        }
+        &__beaf{
+            position: relative;
+
+        }
         &:before{
             content: '';
             background-color: #336d88;
@@ -95,10 +104,85 @@ $backgroundColor: #ffffffc5;
     &__ingredients{
         & > h5 {
             font-size: 2rem;
+            padding-top: 3rem;
+            padding-bottom: 3rem;
+        }
+        &--list{
+            list-style: none;
+        }
+        &--item{
+            
+            position: relative;
+            padding-top: 35px;
+            font-size: 1.2rem;
+            
+        }
+    }
+    &__formGroup{
+        
+        input[type="checkbox"]{
+            position: absolute;
+            padding: 30px;
+            visibility: hidden;
+        }
+        & > label{
+            display: inline-block;
+            padding-left: 3rem;
+            color: #212529;
+            font-size: 16px;
+            cursor: pointer;
+            &:before{
+                content: "";
+                position: absolute;
+                top: 33px;
+                left: 0;
+                width: 25px;
+                height: 25px;
+                border: 1px solid #aaaaaa;
+                background-color: #fff;
+                cursor: pointer;
+            }
+            &:after{
+                content: "";
+                position: absolute;
+                top: 35px;
+                left: 9px;
+                width: 7px;
+                height: 15px;
+                border-width: 0 2px 2px 0;
+                border-style: solid;
+                border-color: #fff;
+                visibility: hidden;
+                transform: rotate(45deg);
+            }
+        }
+        input[type="checkbox"]:checked + label.square::before {
+            border-color: transparent;
+            background-color: $primaryColor;
+        }
+        input[type="checkbox"]:checked + label.square::after {
+            visibility: visible;
         }
     }
     &__rightCol{
         flex-grow: 7;
+        
+    }
+    &__howToCook{
+        list-style: none;
+        &--item{
+            display: flex;
+            flex-flow: row nowrap;
+            & > h4 {
+                min-width: 2rem;
+                font-size: 2.5rem;
+                padding-right: 1.5rem;
+            }
+            & > p {
+                line-height: 2.5rem;
+                padding-top: 1.5rem;
+            }
+        }
     }
 
 }
