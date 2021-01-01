@@ -9,7 +9,6 @@ import './styles.scss';
 RecipeDetails.propTypes = {};
 
 function RecipeDetails({ recipeDetail }) {
-    const history = useHistory();
     if (!Object.entries(recipeDetail).length) return null;
     return (
         <React.Fragment>

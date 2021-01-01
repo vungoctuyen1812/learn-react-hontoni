@@ -4,7 +4,7 @@ import backgroundImg from './page-top-bg.jpg';
 RecipeTitle.propTypes = {
     recipeTitle: PropTypes.object,
 };
-console.log(backgroundImg);
+
 function RecipeTitle({ recipeTitle }) {
     const recipeTitleStyle = {
         backgroundImage: 'url(' + backgroundImg + ')',

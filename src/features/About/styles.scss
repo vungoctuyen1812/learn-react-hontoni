@@ -1,0 +1,50 @@
+$primaryColor: #f6bed6;
+$secondaryColor: #e79cc2;
+$thirdaryColor: #1d1b38;
+$fourtharyColor: #336d88;
+$backgroundColor: #ffffffc5;
+
+.about{
+    &__introduce{
+        padding: 5rem 10rem 5rem 10rem;
+        display: flex;
+    }
+    &__desc{
+        max-width: calc(50%);
+        padding-right: 10rem;
+        & > h3 {
+            font-size: 3.5rem;
+            padding-bottom: 10rem;
+        }
+        & > p {
+            display: inline-block;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            line-height: 2;
+            padding-bottom: 5rem;
+        }
+
+    }
+    &__btn{
+        height: 4rem;
+        width: 8rem;
+        outline: none;
+        border: none;
+        cursor: pointer;
+        background-color: $primaryColor;
+        border-radius: 0.5rem;
+        transition: all 0.4s ease-in-out;
+        &:hover{
+            background-color: $fourtharyColor;
+            border-radius: 2rem;
+            color: white;
+        }
+    }
+    &__imgWrapper{
+        max-width: calc(50%);
+        & > img {
+            height: 100%;
+            width: 100%;
+        }
+    }
+}
