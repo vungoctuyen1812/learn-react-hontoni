@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import About from './features/About';
+import Contact from './features/Contact';
 import Footer from './features/Footer';
 import Home from './features/Home';
 import NavbarFeature from './features/Navbar';
@@ -106,6 +107,7 @@ function App() {
                         <RecipeDetails recipeDetail={recipeDetail}></RecipeDetails>
                     </Route>
                     <Route path="/about" component={About}></Route>
+                    <Route path="/contact" component={Contact}></Route>
                 </Switch>
                 <Footer />
             </BrowserRouter>

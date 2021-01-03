@@ -13,12 +13,14 @@ $backgroundColor: #ffffffc5;
         display: flex;
         justify-content: center;
         align-items: center;
+        
         & > h1 {
             border-radius: 0.5rem;
             font-size: 3rem;
             color: white;
             padding: 2rem;
             background-color: $secondaryColor;
+            box-shadow: 0rem 4rem 8rem 0rem rgb(0, 0, 0);
         }
     }
     &__content{
