@@ -50,7 +50,7 @@ function LastestRecipes(props) {
     ];
     return (
         <section className="lastRecipes__container">
-            <h3 className="lastRecipes__title">Lastest Recipes</h3>
+            <h3 className="lastRecipes__title">Latest Recipes</h3>
             <LastestRecipesList lastestRecipesList={lastestRecipesList} />
         </section>
     );

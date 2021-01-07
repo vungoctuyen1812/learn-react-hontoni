@@ -54,16 +54,15 @@ $backgroundColor: #ffffffc5;
 
     }
     &__chef {
+        padding-top: 1rem;
         display: flex;
         align-items: center;
         & > img {
-            margin-top: 1rem;
             width: 3rem;
             height: 3rem;
             object-fit: cover;
             border-radius: 5rem;
             margin-right: 2rem;
-            
         }
     }
 }

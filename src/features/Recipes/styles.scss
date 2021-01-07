@@ -50,6 +50,7 @@ $backgroundColor: #ffffffc5;
         justify-content: space-between;
     }
     &__item{
+        cursor: pointer;
         width: calc(24%);
         margin-bottom: 3rem;
         position: relative;
