@@ -79,4 +79,134 @@ $backgroundColor: #ffffffc5;
     }
     
 }
-
+/* Mobile: width < 640px */
+@media only screen and (max-width: 640px){
+    .rankRecipes{
+        &__container{
+            display: flex;
+            padding: 0 3rem 5rem 3rem;
+            justify-content: space-between;
+            background-color: #f4f7fb;
+            flex-flow: column wrap;
+        }
+        &__title{
+            display: inline-block;
+            padding-top: 5rem;
+            padding-bottom: 3rem;
+            font-size: 1.5rem;
+            position: relative; 
+            &::before{
+                content: '';
+                width: 35%;
+                height: 0.3rem;
+                background-color: $secondaryColor;
+                position: absolute;
+                left: 0;
+                top: 45%;
+            }
+        }
+        &__item{
+            width: calc(100%);
+        }           
+    }
+}
+/*  width >= 640px and width < 960px */
+@media only screen and (min-width: 640px) and (max-width: 959px){
+    .rankRecipes{
+        &__container{
+            display: flex;
+            padding: 0 3rem 5rem 3rem;
+            justify-content: center;
+            background-color: #f4f7fb;
+            flex-flow: row wrap;
+        }
+        &__title{
+            display: inline-block;
+            padding-top: 5rem;
+            padding-bottom: 3rem;
+            font-size: 1.5rem;
+            position: relative; 
+            &::before{
+                content: '';
+                width: 35%;
+                height: 0.3rem;
+                background-color: $secondaryColor;
+                position: absolute;
+                left: 0;
+                top: 45%;
+            }
+        }
+        &__item{
+            width: calc(45%);
+            &:nth-child(3){
+                width: 70%;
+            }
+        }           
+    }
+}
+/*  width >= 960px and width < 1200px */
+@media only screen and (min-width: 960px) and (max-width: 1199px){
+    .rankRecipes{
+        &__container{
+            display: flex;
+            padding: 0 3rem 5rem 3rem;
+            justify-content: center;
+            background-color: #f4f7fb;
+            flex-flow: row wrap;
+        }
+        &__title{
+            display: inline-block;
+            padding-top: 5rem;
+            padding-bottom: 3rem;
+            font-size: 1.5rem;
+            position: relative; 
+            &::before{
+                content: '';
+                width: 35%;
+                height: 0.3rem;
+                background-color: $secondaryColor;
+                position: absolute;
+                left: 0;
+                top: 45%;
+            }
+        }
+        &__item{
+            width: calc(50%);
+            &:nth-child(3){
+                width: 70%;
+                
+            }
+        }           
+    }    
+}
+/*  width >= 1200px and width < 1600px */
+@media only screen and (min-width: 1200px) and (max-width: 1599px){
+    .rankRecipes{
+        &__container{
+            display: flex;
+            padding:  4rem 10rem 5rem 10rem;
+            justify-content: center;
+            background-color: #f4f7fb;
+            flex-flow: row wrap;
+        }
+        &__title{
+            display: inline-block;
+            padding-top: 5rem;
+            padding-bottom: 3rem;
+            font-size: 1.5rem;
+            position: relative; 
+            &::before{
+                content: '';
+                width: 35%;
+                height: 0.3rem;
+                background-color: $secondaryColor;
+                position: absolute;
+                left: 0;
+                top: 45%;
+            }
+        }
+        &__item{
+            width: calc(50%);
+        }           
+    }    
+}

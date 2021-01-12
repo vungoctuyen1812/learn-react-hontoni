@@ -10,7 +10,11 @@ function RecipeContent({ content, setRecipeDetail }) {
     const history = useHistory();
     const handleClick = (item) => {
         setRecipeDetail(item);
-        history.push('/recipedetail');
+        history.push(`/recipedetail/id=${item.id}`);
+        window.scroll({
+            top: 0,
+            behavior: 'smooth',
+        });
     };
     return (
         <div className="recipes__content">

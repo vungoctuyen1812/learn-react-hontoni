@@ -6,8 +6,7 @@ $backgroundColor: #ffffffc5;
 .recipeDetail{
     &__heroImg{
         height: 80vh;
-        
-        background-image: cover;
+        background-size: cover;
     }
     &__container{
         padding: 0 10rem 5rem 10rem;
@@ -185,4 +184,92 @@ $backgroundColor: #ffffffc5;
         }
     }
 
+}
+/*  width < 640px */
+@media only screen and (max-width: 639px){
+    .recipeDetail{
+        &__heroImg{
+            height: 40vh;
+            background-size: cover;
+            background-position: 50% 50%;
+        }
+        &__container{
+            padding: 0 3rem 5rem 3rem;
+        }
+        &__content{
+            display: flex;
+            flex-flow: column nowrap;
+            
+        }
+        &__leftCol{
+            min-width: 30%;
+            margin-right: 0rem;
+            padding-left: 0rem;
+            margin-bottom: 5rem;
+            
+        }
+    }
+}
+/*  width >= 640px and width < 960px */
+@media only screen and (min-width: 640px) and (max-width: 959px){
+    .recipeDetail{
+        &__heroImg{
+            height: 50vh;
+            background-size: cover;
+            background-position: 50% 50%;
+        }
+        &__container{
+            padding: 0 3rem 5rem 3rem;
+            
+        }
+        &__content{
+            display: flex;
+            flex-flow: column;
+            
+        }
+        &__leftCol{
+            min-width: 30%;
+            margin-right: 0rem;
+            padding-left: 0rem;
+            margin-bottom: 5rem;
+        }
+    }
+}
+/*  width >= 960px and width < 1200px */
+@media only screen and (min-width: 960px) and (max-width: 1199px){
+    .recipeDetail{
+        &__heroImg{
+            height: 50vh;
+            background-size: cover;
+            background-position: 50% 50%;
+        }
+        &__container{
+            padding: 0 6rem 5rem 6rem;
+            
+        }
+        &__content{
+            display: flex;
+            flex-flow: column;
+            
+        }
+        &__leftCol{
+            min-width: 30%;
+            margin-right: 0rem;
+            padding-left: 0rem;
+            margin-bottom: 5rem;
+        }
+    }
+}
+/*  width >= 1200px and width < 1600px */
+@media only screen and (min-width: 1200px) and (max-width: 1599px){
+    .recipeDetail{
+        &__heroImg{
+            height: 80vh;
+            background-size: cover;
+        }
+        &__container{
+            padding: 0 6rem 5rem 6rem;
+            
+        }
+    }
 }

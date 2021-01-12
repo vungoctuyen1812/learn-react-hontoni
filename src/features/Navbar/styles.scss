@@ -2,10 +2,14 @@ $primaryColor: #f6bed6;
 $secondaryColor: #e79cc2;
 $thirdaryColor: #1d1b38;
 $fourtharyColor: #336d88;
+body{
+    overflow-x: hidden;
+}
 .navbar{
     background-color: $primaryColor;
     color: $thirdaryColor;
     font-size: 1.5rem;
+    width: 100%;
     &__container{
         display: flex;
         flex-wrap: nowrap;

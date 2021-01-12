@@ -120,3 +120,28 @@ $backgroundColor: #ffffffc5;
     
     
 }
+/*  width >< 640px */
+@media only screen and (max-width: 639px){
+    .review{
+        &__blockquote{
+            font-size: 1.5rem;
+        }
+    }
+    
+}
+/*  width >= 640px and width < 960px */
+@media only screen and (min-width: 640px) and (max-width: 959px){
+    .review{
+        &__blockquote{
+            font-size: 1.4rem;
+        }
+    }
+}
+/*  width >= 960px and width < 1200px */
+@media only screen and (min-width: 960px) and (max-width: 1199px){
+    
+}
+/*  width >= 1200px and width < 1600px */
+@media only screen and (min-width: 1200px) and (max-width: 1599px){
+
+}
