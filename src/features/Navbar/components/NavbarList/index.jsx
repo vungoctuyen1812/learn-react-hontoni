@@ -6,10 +6,10 @@ NavbarList.propTypes = {
     navbarList: PropTypes.array.isRequired,
 };
 
-function NavbarList({ navbarList }) {
+function NavbarList({ navbarList, isActive }) {
     return (
         <React.Fragment>
-            <ul className="navbar__list">
+            <ul className={isActive ? 'navbar__list active' : 'navbar__list '}>
                 {navbarList.map((item) => (
                     <NavLink key={item.id} exact to={item.path} className="navbar__list--active">
                         <li>{item.label}</li>
