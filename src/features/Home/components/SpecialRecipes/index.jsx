@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import StarIcon from '@material-ui/icons/Star';
+import LightSpeed from 'react-reveal/LightSpeed';
 import './styles.scss';
 SpecialRecipes.propTypes = {};
 
@@ -31,26 +32,28 @@ function SpecialRecipes(props) {
     return (
         <section className="specialRecipes__container">
             {datas.map((item) => (
-                <div key={item.id} className="specialRecipes__item">
-                    <div className="specialRecipes__imgWrapper">
-                        <img src={item.url} alt={item.name} />
-                    </div>
-                    <div className="specialRecipes__content">
-                        <p className="specialRecipes__date">{item.date}</p>
-                        <h5 className="specialRecipes__name">{item.name}</h5>
-                        <span className="rankRecipes__star">
-                            <StarIcon className="rankRecipes__star--active" />
-                            <StarIcon className="rankRecipes__star--active" />
-                            <StarIcon className="rankRecipes__star--active" />
-                            <StarIcon className="rankRecipes__star--active" />
-                            <StarIcon />
-                        </span>
-                        <div className="specialRecipes__chef">
-                            <img src={item.chefUrl} alt={item.chef} />
-                            <p> By {item.chef}</p>
+                <LightSpeed left>
+                    <div key={item.id} className="specialRecipes__item">
+                        <div className="specialRecipes__imgWrapper">
+                            <img src={item.url} alt={item.name} />
+                        </div>
+                        <div className="specialRecipes__content">
+                            <p className="specialRecipes__date">{item.date}</p>
+                            <h5 className="specialRecipes__name">{item.name}</h5>
+                            <span className="rankRecipes__star">
+                                <StarIcon className="rankRecipes__star--active" />
+                                <StarIcon className="rankRecipes__star--active" />
+                                <StarIcon className="rankRecipes__star--active" />
+                                <StarIcon className="rankRecipes__star--active" />
+                                <StarIcon />
+                            </span>
+                            <div className="specialRecipes__chef">
+                                <img src={item.chefUrl} alt={item.chef} />
+                                <p> By {item.chef}</p>
+                            </div>
                         </div>
                     </div>
-                </div>
+                </LightSpeed>
             ))}
         </section>
     );

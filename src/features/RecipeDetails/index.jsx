@@ -5,6 +5,8 @@ import StarIcon from '@material-ui/icons/Star';
 import RecipeDetailIntroduce from './components/RecipeDetailIntroduce';
 import RecipeDetailIngredients from './components/RecipeDetailIngredients';
 import RecipeHowToCook from './components/RecipeHowToCook';
+import Zoom from 'react-reveal/Zoom';
+import Fade from 'react-reveal/Fade';
 import './styles.scss';
 RecipeDetails.propTypes = {};
 
@@ -12,32 +14,39 @@ function RecipeDetails({ recipeDetail }) {
     if (!Object.entries(recipeDetail).length) return null;
     return (
         <React.Fragment>
-            <section
-                className="recipeDetail__heroImg"
-                style={{ backgroundImage: `url(${recipeDetail.url})` }}
-            ></section>
+            <Zoom left>
+                <section
+                    className="recipeDetail__heroImg"
+                    style={{ backgroundImage: `url(${recipeDetail.url})` }}
+                ></section>
+            </Zoom>
+
             <section className="recipeDetail__container">
-                <div className="recipeDetail__title">
-                    <h5>For {recipeDetail.level}</h5>
-                    <h3>{recipeDetail.name}</h3>
-                    <p>{recipeDetail.date}</p>
-                    <span>
-                        <StarIcon className="lastRecipes__item--active" />
-                        <StarIcon className="lastRecipes__item--active" />
-                        <StarIcon className="lastRecipes__item--active" />
-                        <StarIcon className="lastRecipes__item--active" />
-                        <StarIcon />
-                    </span>
-                </div>
-                <div className="recipeDetail__content">
-                    <div className="recipeDetail__leftCol">
-                        <RecipeDetailIntroduce detailIntroduce={recipeDetail.desc}></RecipeDetailIntroduce>
-                        <RecipeDetailIngredients detailIngredients={recipeDetail.ingredients}></RecipeDetailIngredients>
+                <Fade left cascade>
+                    <div className="recipeDetail__title">
+                        <h5>For {recipeDetail.level}</h5>
+                        <h3>{recipeDetail.name}</h3>
+                        <p>{recipeDetail.date}</p>
+                        <span>
+                            <StarIcon className="lastRecipes__item--active" />
+                            <StarIcon className="lastRecipes__item--active" />
+                            <StarIcon className="lastRecipes__item--active" />
+                            <StarIcon className="lastRecipes__item--active" />
+                            <StarIcon />
+                        </span>
                     </div>
-                    <div className="recipeDetail__rightCol">
-                        <RecipeHowToCook detailHowToCook={recipeDetail.howToCook}></RecipeHowToCook>
+                    <div className="recipeDetail__content">
+                        <div className="recipeDetail__leftCol">
+                            <RecipeDetailIntroduce detailIntroduce={recipeDetail.desc}></RecipeDetailIntroduce>
+                            <RecipeDetailIngredients
+                                detailIngredients={recipeDetail.ingredients}
+                            ></RecipeDetailIngredients>
+                        </div>
+                        <div className="recipeDetail__rightCol">
+                            <RecipeHowToCook detailHowToCook={recipeDetail.howToCook}></RecipeHowToCook>
+                        </div>
                     </div>
-                </div>
+                </Fade>
             </section>
         </React.Fragment>
     );

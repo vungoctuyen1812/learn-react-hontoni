@@ -11,6 +11,7 @@ import PinterestIcon from '@material-ui/icons/Pinterest';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import ContactIcon from './components/ContactIcon';
+import Fade from 'react-reveal/Fade';
 Contact.propTypes = {};
 
 function Contact(props) {
@@ -66,7 +67,9 @@ function Contact(props) {
         <React.Fragment>
             <ContactTitle></ContactTitle>
             <div className="contact__container">
-                <h2 className="contact__title">Leave a comment</h2>
+                <Fade left>
+                    <h2 className="contact__title">Leave a comment</h2>
+                </Fade>
                 <div className="contact__content--wrapper">
                     <ContactForm />
                     <ContactDesc contactData={contactData} iconList={iconList} />

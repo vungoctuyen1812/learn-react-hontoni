@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import StarIcon from '@material-ui/icons/Star';
 import { useHistory } from 'react-router-dom';
+import Fade from 'react-reveal/Fade';
 RecipeContent.propTypes = {
     content: PropTypes.array,
 };
@@ -21,19 +22,21 @@ function RecipeContent({ content, setRecipeDetail }) {
             <div className="recipes__title">Recipes</div>
             <div className="recipes__wrapper">
                 {content.map((item) => (
-                    <div key={item.id} className="recipes__item" onClick={() => handleClick(item)}>
-                        <img src={item.url} alt={item.name} />
-                        <div className="recipes__item--desc">
-                            <p>{item.name}</p>
-                            <span>
-                                <StarIcon className="lastRecipes__item--active" />
-                                <StarIcon className="lastRecipes__item--active" />
-                                <StarIcon className="lastRecipes__item--active" />
-                                <StarIcon className="lastRecipes__item--active" />
-                                <StarIcon />
-                            </span>
+                    <Fade left cascade>
+                        <div key={item.id} className="recipes__item" onClick={() => handleClick(item)}>
+                            <img src={item.url} alt={item.name} />
+                            <div className="recipes__item--desc">
+                                <p>{item.name}</p>
+                                <span>
+                                    <StarIcon className="lastRecipes__item--active" />
+                                    <StarIcon className="lastRecipes__item--active" />
+                                    <StarIcon className="lastRecipes__item--active" />
+                                    <StarIcon className="lastRecipes__item--active" />
+                                    <StarIcon />
+                                </span>
+                            </div>
                         </div>
-                    </div>
+                    </Fade>
                 ))}
             </div>
         </div>

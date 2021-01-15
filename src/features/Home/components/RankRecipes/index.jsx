@@ -2,6 +2,7 @@ import React from 'react';
 import MostLikedRecipes from './components/MostLikedRecipes';
 import TopRatedRecipes from './components/TopRatedRecipes';
 import ReviewRecipes from './components/ReviewRecipes';
+import Fade from 'react-reveal/Fade';
 import './styles.scss';
 RankRecipes.propTypes = {};
 
@@ -138,11 +139,13 @@ function RankRecipes(props) {
         },
     ];
     return (
-        <div className="rankRecipes__container">
-            <MostLikedRecipes mostLiked={mostLiked} />
-            <TopRatedRecipes topRated={topRated} />
-            <ReviewRecipes reviewsList={reviewsList} />
-        </div>
+        <Fade left>
+            <div className="rankRecipes__container">
+                <MostLikedRecipes mostLiked={mostLiked} />
+                <TopRatedRecipes topRated={topRated} />
+                <ReviewRecipes reviewsList={reviewsList} />
+            </div>
+        </Fade>
     );
 }
 

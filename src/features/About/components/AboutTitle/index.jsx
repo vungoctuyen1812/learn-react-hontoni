@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Swing from 'react-reveal/Swing';
 import backgroundImg from './page-top-bg.jpg';
 AboutTitle.propTypes = {};
 
@@ -9,7 +9,9 @@ function AboutTitle({ aboutTitle }) {
     };
     return (
         <div style={aboutTitleStyle} className="recipes__header">
-            <h1>{aboutTitle}</h1>
+            <Swing>
+                <h1>{aboutTitle}</h1>
+            </Swing>
         </div>
     );
 }
