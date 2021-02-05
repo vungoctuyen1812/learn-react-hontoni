@@ -10,14 +10,14 @@ function HeroImage(props) {
         <div className="hero__container">
             <div className="hero__layout">
                 <Zoom left cascade>
-                    <h5 className="hero__subtitle">Enjoy your healthy Vietnamese Food</h5>
+                    <h5 className="hero__subtitle">新鮮なベトナム料理を食べましょう</h5>
 
                     <h2 className="hero__title">Miss Vietnam</h2>
-                    <p className="hero__desc">Our website is all good for you</p>
+                    <p className="hero__desc">一緒に太りませんか</p>
                 </Zoom>
                 <Fade left>
                     <button className="hero__btn">
-                        <span>Explore Now</span>
+                        <span>詳しくは</span>
                         <span className="hero__btn--icon1">
                             <ArrowForwardIosIcon />
                         </span>

@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import Pagination from './components/Pagination';
 import RecipeContent from './components/RecipeContent';
 import RecipeTitle from './components/RecipeTitle';
-import Swing from 'react-reveal/Swing';
 import './styles.scss';
 Recipes.propTypes = {};
 

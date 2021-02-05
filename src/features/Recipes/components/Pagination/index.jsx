@@ -15,8 +15,8 @@ function Pagination({ itemsPerPage, totalItems, paginate }) {
         <nav className="recipes__nav--wrapper">
             <ul className="recipes__nav">
                 {pageNumbers.map((number) => (
-                    <Link to={`/recipes/page_${number}`}>
-                        <li key={number} className="recipes__nav--item">
+                    <Link key={number} to={`/recipes/page_${number}`}>
+                        <li className="recipes__nav--item">
                             <button href={`/recipes/${number}`} onClick={() => paginate(number)}>
                                 {number}
                             </button>

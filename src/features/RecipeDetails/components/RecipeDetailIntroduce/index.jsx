@@ -7,9 +7,9 @@ function RecipeDetailIntroduce({ detailIntroduce }) {
     return (
         <div className="recipeDetail__introduce">
             <span className="recipeDetail__beaf"></span>
-            <p>{detailIntroduce.prep}</p>
-            <p>{detailIntroduce.cook}</p>
-            <p>{detailIntroduce.yeilds}</p>
+            <p>Prep: {detailIntroduce.prep}</p>
+            <p>Cook: {detailIntroduce.cook}</p>
+            <p>Yeilds: {detailIntroduce.yeilds}</p>
         </div>
     );
 }

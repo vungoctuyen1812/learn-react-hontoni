@@ -72,7 +72,7 @@ $backgroundColor: #ffffffc5;
 
         &__container{
             display: flex;
-            padding: 3rem 3rem 5rem 3rem;
+            padding: 3rem 2rem 3rem 2rem;
             justify-content: center;
             flex-flow: column wrap;
             background-color: #fdc856;
@@ -95,6 +95,28 @@ $backgroundColor: #ffffffc5;
                 box-shadow: 0 0 4rem -2rem rgb(0, 0, 0);
             }
             
+        }
+        &__imgWrapper {
+            max-width: 9rem;
+            max-height: 100%;
+           
+        }
+        &__content{
+            margin-left: 1rem;
+            width: 100%;
+        }
+        &__date{
+            font-size: 0.8rem;
+        }
+        &__name{
+            font-size: 1rem;
+        }
+        &__star > svg{
+            font-size: 1rem;
+        }
+        &__chef{
+            flex-flow: column nowrap;
+            align-items: flex-start;
         }
     }
 }

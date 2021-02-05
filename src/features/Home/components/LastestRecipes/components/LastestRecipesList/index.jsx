@@ -1,8 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import LastestRecipesItem from '../LastestRecipesItem';
-import { motion } from 'framer-motion';
-
+import Fade from 'react-reveal/Fade';
 LastestRecipesList.propTypes = {
     LastestRecipesList: PropTypes.array,
 };

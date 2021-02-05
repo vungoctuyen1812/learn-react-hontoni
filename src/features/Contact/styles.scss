@@ -139,7 +139,7 @@ $backgroundColor: #ffffffc5;
             padding: 5rem 3rem 5rem 3rem;
         }
         &__title{
-            font-size: 2.5rem;
+            font-size: 2rem;
             padding-bottom: 3rem;
         }
         &__content{
@@ -153,10 +153,40 @@ $backgroundColor: #ffffffc5;
             margin-bottom: 4rem;
             &--user{
                 display: flex;
-                margin-bottom: 4rem;
+                margin-bottom: 2rem;
                 justify-content: space-between;
-                height: 3rem;
+                height: 8rem;
+                flex-flow: column;
             } 
+            &--name{
+                width: calc(100% - 3rem);
+                padding-left: 3rem;
+                height: 3rem;
+                font-family: inherit;
+                border: none;
+                background-color: #eff3f7;
+                outline: none;
+            }
+            &--email{
+                width: calc(100% - 3rem);
+                padding-left: 3rem;
+                height: 3rem;
+                font-family: inherit;
+                border: none;
+                background-color: #eff3f7;
+                outline: none;
+            }
+        }
+        &__desc{
+            &--item{
+                margin-left: 0;
+            }
+            &--icon{
+                padding: 2rem 0rem;
+                & > li {
+                    padding-right: 1rem;
+                }
+            }
         }
         
     }

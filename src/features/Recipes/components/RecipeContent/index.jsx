@@ -22,8 +22,8 @@ function RecipeContent({ content, setRecipeDetail }) {
             <div className="recipes__title">Recipes</div>
             <div className="recipes__wrapper">
                 {content.map((item) => (
-                    <Fade left cascade>
-                        <div key={item.id} className="recipes__item" onClick={() => handleClick(item)}>
+                    <Fade left cascade key={item.id}>
+                        <div className="recipes__item" onClick={() => handleClick(item)}>
                             <img src={item.url} alt={item.name} />
                             <div className="recipes__item--desc">
                                 <p>{item.name}</p>

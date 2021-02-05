@@ -123,7 +123,7 @@ body{
             flex-flow: column;
             & > svg{
                 cursor: pointer;
-                padding: 1rem 2rem;
+                padding: 1rem 1rem;
                 font-size: 2.5rem;
                 transition: .3s;
                 &:hover{
@@ -142,7 +142,7 @@ body{
             width: 100%;
             background-color: #f6bed6;
             transition: all .35s ease-out;
-            height: 19rem;
+            height: 21rem;
             &.active{
                 overflow: hidden;
                 height: 0;
@@ -260,7 +260,7 @@ body{
             width: 100%;
             background-color: #f6bed6;
             transition: all .35s ease-out;
-            height: 19rem;
+            height: 21rem;
             &.active{
                 overflow: hidden;
                 height: 0;
@@ -350,3 +350,4 @@ body{
 @media only screen and (min-width: 1200px) and (max-width: 1599px){
     
 }
+

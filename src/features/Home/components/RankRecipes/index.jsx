@@ -10,36 +10,36 @@ function RankRecipes(props) {
     const topRated = [
         {
             id: 1,
-            name: 'Banh troi tau',
-            date: 'November 14, 2020',
+            name: 'バイン　トロイ　タウ',
+            date: '2020年04月10日',
             url:
                 'https://images.unsplash.com/photo-1537119933321-528a14396ae6?ixlib=rb-1.2.1&auto=format&fit=crop&w=2132&q=80',
         },
         {
             id: 2,
-            name: 'Bun gi khong biet',
-            date: 'November 14, 2020',
+            name: '混ぜ　ブン',
+            date: '2020年04月10日',
             url:
                 'https://images.unsplash.com/photo-1604228982586-ded54b1ad579?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80',
         },
         {
             id: 3,
-            name: 'Cafe sua da',
-            date: 'November 14, 2020',
+            name: 'アイス　ミルク　コーヒー',
+            date: '2020年11月10日',
             url:
                 'https://images.unsplash.com/photo-1587899053914-4894c3ca656d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2134&q=80',
         },
         {
             id: 4,
-            name: 'Cha gio Sai Gon',
-            date: 'November 14, 2020',
+            name: 'サイ　ゴン　チャ　ジョー',
+            date: '2020年11月10日',
             url:
                 'https://images.unsplash.com/photo-1548811256-1627d99e7a2c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2000&q=80',
         },
         {
             id: 5,
-            name: 'Ga ran chien bot',
-            date: 'November 14, 2020',
+            name: '唐揚げ',
+            date: '2020年11月10日',
             url:
                 'https://images.unsplash.com/photo-1579065472192-c3f98f86b6c6?ixlib=rb-1.2.1&auto=format&fit=crop&w=2134&q=80',
         },
@@ -47,36 +47,36 @@ function RankRecipes(props) {
     const mostLiked = [
         {
             id: 1,
-            name: 'Banh troi tau',
-            date: 'November 14, 2020',
+            name: 'バイン　トロイ　タウ',
+            date: '2021年1月25日',
             url:
                 'https://images.unsplash.com/photo-1537119933321-528a14396ae6?ixlib=rb-1.2.1&auto=format&fit=crop&w=2132&q=80',
         },
         {
             id: 2,
-            name: 'Bun gi khong biet',
-            date: 'November 14, 2020',
+            name: '混ぜ　ブン',
+            date: '2021年1月25日',
             url:
                 'https://images.unsplash.com/photo-1604228982586-ded54b1ad579?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80',
         },
         {
             id: 3,
-            name: 'Cafe sua da',
-            date: 'November 14, 2020',
+            name: 'アイス　ミルク　コーヒー',
+            date: '2021年1月25日',
             url:
                 'https://images.unsplash.com/photo-1587899053914-4894c3ca656d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2134&q=80',
         },
         {
             id: 4,
-            name: 'Cha gio Sai Gon',
-            date: 'November 14, 2020',
+            name: 'サイ　ゴン　チャ　ジョー',
+            date: '2021年1月25日',
             url:
                 'https://images.unsplash.com/photo-1548811256-1627d99e7a2c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2000&q=80',
         },
         {
             id: 5,
-            name: 'Ga ran chien bot',
-            date: 'November 14, 2020',
+            name: '唐揚げ',
+            date: '2021年1月25日',
             url:
                 'https://images.unsplash.com/photo-1579065472192-c3f98f86b6c6?ixlib=rb-1.2.1&auto=format&fit=crop&w=2134&q=80',
         },
@@ -84,55 +84,52 @@ function RankRecipes(props) {
     const reviewsList = [
         {
             id: 1,
-            date: 'March 07, 2020',
-            name: 'Miss Viet Nam  Review',
-            writer: 'By Maria Williams',
+            date: '2020年9月27日',
+            name: '美濃吉京懷石  評判',
+            writer: '木村かよ子',
             desc:
-                'This cozy restaurant has left the best impressions! Hospitable hosts, delicious dishes, beautiful presentation, wide wine list and wonderful dessert. I recommend to everyone! I would like to come back here again and again.',
+                '静かに食事したくて行くと(ランチ)、小さい子どもの鳴き声がする事が何回かあって、そこの点をお店で配慮してもらえたら星5でした。',
             comments: 2,
             url:
                 'https://images.unsplash.com/photo-1554118811-1e0d58224f24?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1930&q=80',
         },
         {
             id: 2,
-            date: 'November 14, 2020',
-            name: 'Miss Viet Nam  Review',
-            writer: 'By Big Daddy',
+            date: '2021年1月12日',
+            name: '六丁目蟹みつ 評判',
+            writer: 'ほあ',
             desc:
-                'It’s a great experience. The ambiance is very welcoming and charming. Amazing wines, food and service. Staff are extremely knowledgeable and make great recommendations.',
+                '何より蟹が活きていて新鮮だったのがポイントだったと思います。5周年記念でスパークリングワインがついてきたのもうれしかった。今度はディナーで伺いたいと思っています。',
             comments: 2,
             url:
                 'https://images.unsplash.com/photo-1428515613728-6b4607e44363?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80',
         },
         {
             id: 3,
-            date: 'November 27, 2020',
-            name: 'Miss Viet Nam  Review',
-            writer: 'By Hatake Hana',
-            desc:
-                'A small local restaurant with great service, food, and overall experience! Definitely a go-to place for (FN) when you are in (CN)! Huge variety of (FN) to choose from & side dishes are delicious as well.',
+            date: '2021年1月17日',
+            name: '田村屋 評判',
+            writer: '山田光輝',
+            desc: '和室もあるし、小さなお子さんでも食べられる料理も多いので家族でも行けるお店だと思いました。',
             comments: 1,
             url:
                 'https://images.unsplash.com/photo-1579869696034-ec145eb3987c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80',
         },
         {
             id: 4,
-            date: 'December 22, 2020',
-            name: 'Miss Viet Nam  Review',
-            writer: 'By John Cena',
-            desc:
-                'Loved this place. The atmosphere, food and most of the drinks were great. The bartenders knew their mixology and it showed in the drinks. Great place to hangout, chill or go out on a date.',
+            date: '2020年12月19日',
+            name: '新宿なごみ　評判',
+            writer: 'ぶりぶり左衛門',
+            desc: '季節によって鍋やら松茸土瓶蒸しやらハモ料理やら、歌舞伎町には無い隠れ家的な和食屋さんでした。',
             comments: 3,
             url:
                 'https://images.unsplash.com/photo-1571705042748-55feda1cfadc?ixlib=rb-1.2.1&auto=format&fit=crop&w=1267&q=80',
         },
         {
             id: 5,
-            date: 'July 02, 2020',
-            name: 'Miss Viet Nam  Review',
-            writer: 'By Den Vau',
-            desc:
-                'Absolutely amazing place to eat, we will be making a reservation for our next visit in (CN)! 10 of 10 for every single aspect of this meal, and this is coming from people who know and love great food!',
+            date: '2020年1月8日',
+            name: 'レストランかおり　評判',
+            writer: '濱野周司',
+            desc: '昔からある町の洋食屋さん。コスパ良し。',
             comments: 4,
             url:
                 'https://images.unsplash.com/photo-1488992783499-418eb1f62d08?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2053&q=80',

@@ -5,13 +5,18 @@ import React from 'react';
 import NavbarList from './components/NavbarList';
 import './styles.scss';
 import DehazeIcon from '@material-ui/icons/Dehaze';
+import { useHistory } from 'react-router-dom';
 
 NavbarFeature.propTypes = {};
 
 function NavbarFeature() {
-    const [isActive, setIsActive] = useState(false);
+    const [isActive, setIsActive] = useState(true);
     const handleToggle = () => {
         setIsActive(!isActive);
+    };
+    const history = useHistory();
+    const handleReturnHome = () => {
+        history.push('/');
     };
     const navbarList = [
         {
@@ -44,7 +49,7 @@ function NavbarFeature() {
         <React.Fragment>
             <nav className="navbar">
                 <div className="navbar__container">
-                    <FastfoodIcon className="navbar__icon" />
+                    <FastfoodIcon className="navbar__icon" onClick={() => handleReturnHome()} />
                     <NavbarList navbarList={navbarList} isActive={isActive} />
 
                     <DehazeIcon className="navbar__toggle" onClick={() => handleToggle()} />

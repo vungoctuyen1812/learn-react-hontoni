@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import ScrollToTop from 'react-scroll-up';
 import About from './features/About';
 import Contact from './features/Contact';
 import Footer from './features/Footer';
@@ -7,6 +8,7 @@ import Home from './features/Home';
 import NavbarFeature from './features/Navbar';
 import RecipeDetails from './features/RecipeDetails';
 import Recipes from './features/Recipes';
+import ArrowUpwardIcon from '@material-ui/icons/ArrowUpward';
 
 function App() {
     const [recipeDetail, setRecipeDetail] = useState({
@@ -93,10 +95,31 @@ function App() {
             },
         ],
     });
-
+    const scrollStyle = {
+        position: 'fixed',
+        bottom: 50,
+        right: 30,
+        cursor: 'pointer',
+        transitionDuration: '0.2s',
+        transitionTimingFunction: 'linear',
+        transitionDelay: '0s',
+        height: '4rem',
+        width: '4rem',
+        backgroundColor: '#336d88',
+        zIndex: 99,
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+        borderRadius: '5rem',
+        color: '#e79cc2',
+        fontSize: '3rem',
+    };
     return (
         <div className="App">
             <BrowserRouter>
+                <ScrollToTop showUnder={160} style={scrollStyle}>
+                    <ArrowUpwardIcon></ArrowUpwardIcon>
+                </ScrollToTop>
                 <NavbarFeature />
                 <Switch>
                     <Route exact path="/" component={Home} />
