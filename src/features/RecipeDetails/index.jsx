@@ -12,13 +12,16 @@ RecipeDetails.propTypes = {};
 
 function RecipeDetails({ recipeDetail }) {
     if (!Object.entries(recipeDetail).length) return null;
+
+    // const nextRecipe = () => {};
+    // const prepRecipe = () => {};
     return (
         <React.Fragment>
             <Zoom left>
-                <section
-                    className="recipeDetail__heroImg"
-                    style={{ backgroundImage: `url(${recipeDetail.url})` }}
-                ></section>
+                <section className="recipeDetail__heroImg" style={{ backgroundImage: `url(${recipeDetail.url})` }}>
+                    {/* <button onClick={() => nextRecipe()}>Next</button>
+                    <button onClick={() => prepRecipe()}>Prep</button> */}
+                </section>
             </Zoom>
 
             <section className="recipeDetail__container">
